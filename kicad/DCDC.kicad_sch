@@ -2560,6 +2560,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BATT BOOST TO 4V2\n"
+		(exclude_from_sim no)
+		(at 38.354 177.8 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "0414c9cf-ed88-4cbe-8b9b-14b11dd3ff0a")
+	)
+	(text "SOMETHING\nOR-ING\n"
+		(exclude_from_sim no)
+		(at 185.166 149.606 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "6985746b-7305-4ca3-9161-25eaab0c25b8")
+	)
 	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=62C56A5871A9F317"
 		(exclude_from_sim no)
 		(at 138.176 98.806 0)
@@ -2570,6 +2594,30 @@
 		)
 		(uuid "8c0c5313-d99d-4aa2-912a-1b5d802f86e0")
 	)
+	(text "MAIN TO 3V3\n"
+		(exclude_from_sim no)
+		(at 39.624 53.34 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "aa44a876-bb09-4791-9d88-e2e4788731cf")
+	)
+	(text "EXT12V TO 4V2\n"
+		(exclude_from_sim no)
+		(at 48.26 130.81 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "b6755ce7-86d5-47b0-8c81-f902c9fd15b1")
+	)
 	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=FB38C6AE199D341B"
 		(exclude_from_sim no)
 		(at 83.82 42.672 0)
@@ -2579,6 +2627,18 @@
 			)
 		)
 		(uuid "d53ee35e-e54d-4ea4-b32e-a47e241d6c3e")
+	)
+	(text "150-180Vin MAX to 12V DCDC"
+		(exclude_from_sim no)
+		(at 177.546 32.258 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "d9701539-4bac-4a81-a0da-0885e6fb02bc")
 	)
 	(junction
 		(at 78.74 172.72)
@@ -2783,6 +2843,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f75adc44-14ae-4105-a5a9-c9d2ff9fb7dd")
+	)
+	(no_connect
+		(at 173.99 43.18)
+		(uuid "50395f19-07a6-4433-aeb7-2baeb5b66d2d")
 	)
 	(wire
 		(pts
@@ -4060,6 +4124,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "307338a9-982b-43ed-9319-abd8b67169ce")
+		(property "Reference" "#PWR057"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ffb0426-3957-4b58-adea-69b8ac9e03ca")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/9caf0d13-589a-469d-9b5c-d69632aa737b"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Converter_DCDC:TPS61022")
 		(at 78.74 165.1 0)
 		(unit 1)
@@ -4415,6 +4545,73 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/9caf0d13-589a-469d-9b5c-d69632aa737b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 173.99 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6878d32e-5c22-4cf0-bb5e-38b2ce4927c1")
+		(property "Reference" "#PWR056"
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 170.18 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "583ffb39-f5e9-4fec-be93-babac7e43bc9")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/9caf0d13-589a-469d-9b5c-d69632aa737b"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
