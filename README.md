@@ -16,7 +16,6 @@ Includes:
    - Accelerometer/IMU for "alarm" functionality
    - Moisture/temp sensor for condensation detection (?)
    - RTC
-   - Accelerometer or Gyro with INT for "alarm" wakeup
    -TYPE 2 charging CP PP control
    - External antenna PCB for active GNSS + passive LTE should be here as well.
 

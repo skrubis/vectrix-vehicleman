@@ -2,4 +2,5 @@
 *-bak
 *-backups
 *.lck
+.gitignore
 desktop.ini
