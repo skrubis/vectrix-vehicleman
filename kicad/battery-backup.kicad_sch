@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "fcc55e48-85e5-4463-8a56-07d9969fe364")
 	(paper "A4")
+	(title_block
+		(title "VehicleMan")
+		(date "2025-03-04")
+		(rev "0")
+		(company "©CC-BY-NC")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
@@ -3591,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "rp2040-pi:C5290175-18650-holder"
+		(property "Footprint" "vehicle-manager:C5290175-18650-holder"
 			(at 175.26 113.03 0)
 			(effects
 				(font

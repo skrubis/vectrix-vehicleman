@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vehicle-manager-0.kicad_pro",
+    "filename": "vectrix-vehicleman-0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -641,8 +641,16 @@
       "Connectors"
     ],
     [
+      "25f10404-d967-4be6-85df-89e88436f3d4",
+      "Type2"
+    ],
+    [
       "98728cba-e213-4beb-b99a-24f1793fca04",
       "Battery"
+    ],
+    [
+      "44648263-01fc-41b0-9807-d80656be24a4",
+      "GPIO Expander"
     ]
   ],
   "text_variables": {}

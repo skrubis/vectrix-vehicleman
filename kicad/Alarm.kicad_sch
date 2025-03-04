@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "7ae6f049-63e7-47cc-8d87-5ce6d38458cd")
 	(paper "A4")
+	(title_block
+		(title "VehicleMan")
+		(date "2025-03-04")
+		(rev "0")
+		(company "©CC-BY-NC")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
