@@ -4285,10 +4285,10 @@
 		(uuid "0ffc1438-df35-450d-a2a2-5312cf9ef83a")
 	)
 	(junction
-		(at 222.25 55.88)
+		(at 85.09 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12557291-a59e-43c8-92ea-f6efb0e9e543")
+		(uuid "16aa09f5-ae88-49d1-bfe0-134d76ba7332")
 	)
 	(junction
 		(at 154.94 170.18)
@@ -4339,12 +4339,6 @@
 		(uuid "36c3ad33-6e70-4f15-8fef-2d93f0e1d3ff")
 	)
 	(junction
-		(at 205.74 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39ff491d-d765-4750-ac83-08b99cb22407")
-	)
-	(junction
 		(at 175.26 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4357,10 +4351,10 @@
 		(uuid "456fc0ae-0d71-40e3-9e2e-a4a634c5f07a")
 	)
 	(junction
-		(at 154.94 167.64)
+		(at 105.41 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59631bbc-b674-48f8-9ad1-c83ae848c6db")
+		(uuid "5eb49e78-84f5-464e-866a-79ae4135f14b")
 	)
 	(junction
 		(at 228.6 27.94)
@@ -4393,7 +4387,7 @@
 		(uuid "6f265b36-fad3-4030-9f29-65a4a2c4eb5c")
 	)
 	(junction
-		(at 257.81 48.26)
+		(at 233.68 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b284176-daa2-4f28-85aa-40c69da6974b")
@@ -4403,12 +4397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d40a758-535b-4155-a0a4-e49fa7822aaa")
-	)
-	(junction
-		(at 222.25 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dd1c17b-9643-4616-9fd1-463ad9b2300e")
 	)
 	(junction
 		(at 137.16 167.64)
@@ -4435,7 +4423,7 @@
 		(uuid "8872d1da-211f-4b07-9896-d3c510617774")
 	)
 	(junction
-		(at 240.03 48.26)
+		(at 215.9 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92973626-4ed8-4901-8d03-2d082551bff3")
@@ -4459,13 +4447,19 @@
 		(uuid "9e3954ba-7ea1-4009-a3bb-10c47f538469")
 	)
 	(junction
+		(at 248.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0267510-2352-441d-9f0d-882aafb45b7f")
+	)
+	(junction
 		(at 255.27 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e90ee9-c92b-43c9-bc12-d27cf8e5f28f")
 	)
 	(junction
-		(at 257.81 55.88)
+		(at 233.68 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6435f96-460b-4b4b-ace2-528bd1606daa")
@@ -4495,10 +4489,16 @@
 		(uuid "c18584ab-095b-4fb5-956a-2fc69e3a610b")
 	)
 	(junction
-		(at 137.16 165.1)
+		(at 110.49 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cafda524-4699-488f-83b1-b23880931638")
+		(uuid "c4065d73-6777-4079-b3e5-944153e438e0")
+	)
+	(junction
+		(at 248.92 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6cae5a4-7938-445f-b9b1-5280c8303c14")
 	)
 	(junction
 		(at 137.16 180.34)
@@ -4531,7 +4531,7 @@
 		(uuid "edff581b-1940-4f33-b222-a7d1e12447ce")
 	)
 	(junction
-		(at 240.03 55.88)
+		(at 215.9 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6017062-0a36-4bc1-a081-42ab4cc801e7")
@@ -4656,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 167.64) (xy 154.94 167.64)
+			(xy 137.16 167.64) (xy 160.02 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 48.26) (xy 273.05 48.26)
+			(xy 233.68 48.26) (xy 248.92 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4793,16 +4793,6 @@
 			(type default)
 		)
 		(uuid "1aceb6d8-e009-4fec-bc1e-445ff054b670")
-	)
-	(wire
-		(pts
-			(xy 154.94 167.64) (xy 160.02 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b61b56a-2ebc-4850-ad60-7bf54dd6e493")
 	)
 	(wire
 		(pts
@@ -4926,7 +4916,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 48.26) (xy 257.81 48.26)
+			(xy 215.9 48.26) (xy 233.68 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4946,16 +4936,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.26) (xy 240.03 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378cfe59-7d5b-430b-bedf-470706ab9aeb")
-	)
-	(wire
-		(pts
 			(xy 217.17 33.02) (xy 217.17 35.56)
 		)
 		(stroke
@@ -4963,6 +4943,16 @@
 			(type default)
 		)
 		(uuid "3ffbc56e-2c4d-40ef-a0f4-bdcd435f2872")
+	)
+	(wire
+		(pts
+			(xy 110.49 170.18) (xy 144.78 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43393e58-1aa9-427e-b070-cec90a8f045d")
 	)
 	(wire
 		(pts
@@ -4983,6 +4973,36 @@
 			(type default)
 		)
 		(uuid "4ad4844c-1372-4d43-87ae-476b0c88d814")
+	)
+	(wire
+		(pts
+			(xy 248.92 55.88) (xy 269.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb7a9c4-4b40-47dd-bc1b-9a342a2e81c7")
+	)
+	(wire
+		(pts
+			(xy 105.41 165.1) (xy 123.19 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf64793-c4c1-4124-8a40-49385777d5e3")
+	)
+	(wire
+		(pts
+			(xy 85.09 167.64) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc30b5c-47c8-487d-a24f-28bc3610eb43")
 	)
 	(wire
 		(pts
@@ -5026,26 +5046,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 55.88) (xy 222.25 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5822240d-24da-447f-8e3c-eb2946aba174")
-	)
-	(wire
-		(pts
-			(xy 154.94 162.56) (xy 154.94 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b0f6b2-e1d6-4349-a151-cbba5abb941a")
-	)
-	(wire
-		(pts
 			(xy 154.94 171.45) (xy 154.94 170.18)
 		)
 		(stroke
@@ -5086,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 165.1) (xy 123.19 165.1)
+			(xy 60.96 165.1) (xy 105.41 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5156,6 +5156,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 163.83) (xy 85.09 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664757d5-2b00-4c03-b444-e2bcffd1af8f")
+	)
+	(wire
+		(pts
 			(xy 137.16 179.07) (xy 137.16 180.34)
 		)
 		(stroke
@@ -5216,16 +5226,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 55.88) (xy 240.03 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7614437b-d0b3-4740-bfcd-38ad99934c84")
-	)
-	(wire
-		(pts
 			(xy 85.09 177.8) (xy 92.71 177.8)
 		)
 		(stroke
@@ -5256,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 167.64) (xy 123.19 167.64)
+			(xy 60.96 167.64) (xy 85.09 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5306,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 48.26) (xy 205.74 48.26)
+			(xy 196.85 48.26) (xy 215.9 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5446,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 55.88) (xy 273.05 55.88)
+			(xy 233.68 55.88) (xy 248.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 165.1) (xy 137.16 165.1)
+			(xy 130.81 165.1) (xy 160.02 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5656,16 +5656,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 222.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d197fd02-bbed-4cf9-959f-d6e6b6a49210")
-	)
-	(wire
-		(pts
 			(xy 29.21 44.45) (xy 30.48 44.45)
 		)
 		(stroke
@@ -5696,17 +5686,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 165.1) (xy 160.02 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d998af7f-6afd-4c25-91b6-8931ae6e7f3f")
-	)
-	(wire
-		(pts
-			(xy 60.96 170.18) (xy 144.78 170.18)
+			(xy 60.96 170.18) (xy 110.49 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5733,16 +5713,6 @@
 			(type default)
 		)
 		(uuid "e4c3582e-42f6-4311-b27f-3a9459f84f85")
-	)
-	(wire
-		(pts
-			(xy 160.02 171.45) (xy 160.02 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74bca8a-8c7d-4583-9131-1e373054e6c5")
 	)
 	(wire
 		(pts
@@ -5796,7 +5766,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 55.88) (xy 257.81 55.88)
+			(xy 215.9 55.88) (xy 233.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5856,16 +5826,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 162.56) (xy 137.16 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5f580b8-20fb-4377-a02c-f8e1b46a4b46")
-	)
-	(wire
-		(pts
 			(xy 50.8 130.81) (xy 50.8 137.16)
 		)
 		(stroke
@@ -5873,6 +5833,16 @@
 			(type default)
 		)
 		(uuid "f653404c-a6e1-4e92-99e6-83e7a91b9a36")
+	)
+	(wire
+		(pts
+			(xy 248.92 48.26) (xy 269.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c627f9-2675-4c9e-ad53-fd216dc9c4d6")
 	)
 	(wire
 		(pts
@@ -6376,7 +6346,7 @@
 			)
 		)
 	)
-	(global_label "LTE_GPIO5"
+	(global_label "LTE_GPIO5_HV"
 		(shape input)
 		(at 97.79 114.3 0)
 		(fields_autoplaced yes)
@@ -6390,7 +6360,7 @@
 		)
 		(uuid "f17b03b4-0cd2-4ce8-bacc-2afc7db92cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0483 114.3 0)
+			(at 114.435 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,6 +6834,94 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "D26")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 85.09 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b8e4a1c-109e-423f-9181-0a79eb777081")
+		(property "Reference" "D26"
+			(at 87.63 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 87.63 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 90.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 85.09 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 85.09 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac55f6ab-7df7-4941-85ff-7fa1870d393a")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+		)
+		(pin "2"
+			(uuid "3c69d6e7-9396-42b5-8204-9f4f4ba8907b")
+		)
+		(pin "3"
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "D26")
+					(unit 1)
 				)
 			)
 		)
@@ -7493,8 +7551,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 105.41 162.56 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27513143-ff6a-4f5f-85a2-d68936528695")
+		(property "Reference" "D26"
+			(at 107.95 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 107.95 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 100.33 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 105.41 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 105.41 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
+		)
+		(pin "3"
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
+		)
+		(pin "5"
+			(uuid "200924d1-8aa4-4536-9deb-015ec1f037c6")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "D26")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 240.03 55.88 0)
+		(at 215.9 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7503,7 +7649,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aa6d187-8347-493c-a07c-587fc0834ac8")
 		(property "Reference" "#PWR0110"
-			(at 240.03 62.23 0)
+			(at 215.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 60.96 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 55.88 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 55.88 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 55.88 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,94 +7852,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 154.94 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c70ed15-5fad-462f-879a-5d54749e6b41")
-		(property "Reference" "D26"
-			(at 157.48 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 157.48 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 149.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 160.02 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 154.94 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 154.94 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d00a5051-974d-440a-a960-0d25185ae7bf")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
-		)
-		(pin "2"
-			(uuid "6e146000-2076-4723-a19b-307cd38426ac")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -8338,7 +8396,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 52.07 0)
+		(at 233.68 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8346,7 +8404,7 @@
 		(dnp no)
 		(uuid "3a11edbf-142b-4f98-9b9b-291c8afe3438")
 		(property "Reference" "C30"
-			(at 261.62 50.7999 0)
+			(at 237.49 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8413,7 @@
 			)
 		)
 		(property "Value" "10u 50V"
-			(at 261.62 53.3399 0)
+			(at 237.49 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8422,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 258.7752 55.88 0)
+			(at 234.6452 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 52.07 0)
+			(at 233.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8440,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 52.07 0)
+			(at 233.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8449,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 257.81 52.07 0)
+			(at 233.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8801,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 157.48 180)
+		(at 85.09 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8752,7 +8810,7 @@
 		(fields_autoplaced yes)
 		(uuid "487d9433-d0e0-4ab7-9491-ff541e4782f5")
 		(property "Reference" "#PWR0145"
-			(at 154.94 151.13 0)
+			(at 85.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 152.4 0)
+			(at 85.09 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 157.48 0)
+			(at 85.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 157.48 0)
+			(at 85.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 157.48 0)
+			(at 85.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,94 +9101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 137.16 160.02 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ee7ebde-2242-4d9b-b562-34659be8b26d")
-		(property "Reference" "D26"
-			(at 139.7 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 139.7 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 137.16 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 137.16 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "D26")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 128.27 53.34 270)
 		(unit 1)
@@ -9297,85 +9267,6 @@
 			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 222.25 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52502fea-bdb8-40be-ae95-0cc75ce3b9d6")
-		(property "Reference" "C86"
-			(at 226.06 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF 50V"
-			(at 226.06 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 221.2848 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12d0e6f3-11d6-4590-9cc9-d6b6ad4cf725")
-		)
-		(pin "2"
-			(uuid "65660b8f-ea23-4457-8930-c64f622d34c4")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -10105,7 +9996,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 52.07 0)
+		(at 215.9 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10114,7 +10005,7 @@
 		(dnp no)
 		(uuid "65d4935a-7c15-420a-9c4f-e5b088f03d7c")
 		(property "Reference" "C87"
-			(at 243.84 50.7999 0)
+			(at 219.71 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10014,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 243.84 53.3399 0)
+			(at 219.71 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10023,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 239.0648 55.88 0)
+			(at 214.9348 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 52.07 0)
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +10041,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 52.07 0)
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10050,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 240.03 52.07 0)
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,85 +10068,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "C87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 205.74 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "692969eb-8778-4ee3-8c13-adfb60c37ed1")
-		(property "Reference" "C85"
-			(at 209.55 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF 50V"
-			(at 209.55 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 204.7748 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 205.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec253a57-b9fb-496a-81ec-4a2de6691ed3")
-		)
-		(pin "2"
-			(uuid "a33a1f45-b75c-460e-bbff-b99c01de59dd")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10153,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 273.05 52.07 0)
+		(at 248.92 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10350,7 +10162,7 @@
 		(dnp no)
 		(uuid "6b390951-e3c7-4435-a0eb-ff9b1c7c71c4")
 		(property "Reference" "C70"
-			(at 276.86 49.9109 0)
+			(at 252.73 49.9109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,8 +10170,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF 25V"
-			(at 276.86 52.4509 0)
+		(property "Value" "Tant 47u 17V"
+			(at 252.73 52.4509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,8 +10179,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 272.0848 55.88 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+			(at 247.9548 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 52.07 0)
+			(at 248.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10198,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 273.05 52.07 0)
+			(at 248.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,8 +10206,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2918360"
-			(at 273.05 52.07 0)
+		(property "LCSC" "C136751"
+			(at 248.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,93 +10382,6 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "R121")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 160.02 173.99 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d4cc296-737b-4911-b950-c292ebdef0be")
-		(property "Reference" "D26"
-			(at 162.56 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 162.56 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 165.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 154.94 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 160.02 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
-		)
-		(pin "3"
-			(uuid "349af938-270d-4716-934c-ba11b20a224d")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "D26")
-					(unit 2)
 				)
 			)
 		)
@@ -11169,6 +10894,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 269.24 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92be4c9e-2bf9-412d-abcc-ecd674761a85")
+		(property "Reference" "C100"
+			(at 273.05 49.9109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Tant 47u 17V"
+			(at 273.05 52.4509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+			(at 268.2748 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136751"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13bd946e-5d08-482a-ab35-515573a4291f")
+		)
+		(pin "1"
+			(uuid "c28c9d2e-0dfb-4ec6-828d-1e78b7a5ebef")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 78.74 0)
 		(unit 1)
@@ -11368,16 +11172,16 @@
 	)
 	(symbol
 		(lib_id "Skrubis:FB_100R_2.5A")
-		(at 191.77 44.45 180)
+		(at 191.77 44.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ee43340-5c47-4531-9376-c6672e59117d")
 		(property "Reference" "FB4"
-			(at 194.31 41.948 0)
+			(at 189.23 41.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11190,7 @@
 			)
 		)
 		(property "Value" "FB_100R_2.5A"
-			(at 194.31 44.488 0)
+			(at 189.23 44.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11235,7 @@
 			)
 		)
 		(property "STOCK" "N"
-			(at 194.31 47.028 0)
+			(at 189.23 47.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13191,6 +12995,93 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "#PWR0132")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 110.49 172.72 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d74c5f66-4655-4562-a58b-063ef30da32d")
+		(property "Reference" "D26"
+			(at 113.03 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 113.03 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 110.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 110.49 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
+		)
+		(pin "3"
+			(uuid "b8a538b0-d739-4567-9aa8-05be11909f7e")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "D26")
+					(unit 2)
 				)
 			)
 		)

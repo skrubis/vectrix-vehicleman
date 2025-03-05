@@ -7917,7 +7917,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse 250V 3A"
+		(property "Value" "Polyfuse 250V .4A"
 			(at 177.8 52.07 90)
 			(effects
 				(font
@@ -7953,7 +7953,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C369126"
+		(property "LCSC" "C693579"
 			(at 177.8 55.88 90)
 			(effects
 				(font
