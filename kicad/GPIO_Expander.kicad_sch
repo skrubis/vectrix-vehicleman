@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ecd97659-f371-43ee-95db-32764dde2233")
+	(uuid "3ad8b7d3-0bdb-490a-91ff-f9cc80bb0abc")
 	(paper "A4")
 	(title_block
 		(title "VehicleMan")
@@ -2902,7 +2902,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d7e13a0-cf1f-42ee-99b0-88de6468a0ef")
 		(property "Reference" "PF2"

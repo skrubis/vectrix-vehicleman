@@ -2295,29 +2295,7 @@
 		)
 		(uuid "ffaf983f-6bd3-4a50-8d29-b39cd1d22084")
 	)
-	(global_label "USB_LTE_DN"
-		(shape input)
-		(at 121.92 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "124c18a8-a72f-47d8-856e-c4fb5288c588")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.3956 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_LTE_DP"
+	(global_label "USB_DP"
 		(shape input)
 		(at 121.92 90.17 0)
 		(fields_autoplaced yes)
@@ -2327,9 +2305,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5d26d619-afef-4edf-9231-446a7f0d5aa7")
+		(uuid "0003b796-2fda-4f6f-9509-735d7794595d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.3351 90.17 0)
+			(at 131.6507 90.0906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2319,7 @@
 	)
 	(global_label "USB_DN"
 		(shape input)
-		(at 121.92 82.55 0)
+		(at 121.92 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2349,9 +2327,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9ae884dd-46d2-48b2-8cbd-0d87c4b8299b")
+		(uuid "335a4e89-611d-4fae-84fd-594034847124")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7112 82.4706 0)
+			(at 131.7112 87.5506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2339,29 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "USB_LTE_DN"
+		(shape input)
+		(at 121.92 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc9ca80b-b1d5-4415-a9bb-777dceff8a90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3956 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_LTE_DP"
 		(shape input)
 		(at 121.92 85.09 0)
 		(fields_autoplaced yes)
@@ -2371,9 +2371,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a541692d-cca8-4e74-b97c-4ba05320c6e4")
+		(uuid "cab261ea-66aa-4745-a01d-1b301f0024f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.6507 85.0106 0)
+			(at 136.3351 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

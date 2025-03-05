@@ -3793,31 +3793,31 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 256.54 33.02 0)
+		(at 255.27 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "106d0678-8bdc-4b4e-acaf-cad66803f96e")
-		(property "Reference" "J14"
-			(at 256.54 26.67 0)
+		(uuid "092fd1ac-5154-4250-8f0c-cd0ab47d58b1")
+		(property "Reference" "J28"
+			(at 255.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "K1"
-			(at 256.54 29.21 0)
+		(property "Value" "K2"
+			(at 255.27 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 256.54 33.02 0)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 33.02 0)
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3835,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 256.54 33.02 0)
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,8 +3843,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8465"
-			(at 256.54 33.02 0)
+		(property "LCSC" "C695629"
+			(at 255.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,15 +3853,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c7aa055-4d54-4b49-bb00-61f561c9f1ea")
+			(uuid "9bfd0aae-a5e9-46b4-a916-e0fbddb6b6c5")
 		)
 		(pin "2"
-			(uuid "8dcbfff7-3ae9-4184-a380-ee4e24be03fc")
+			(uuid "abf49496-2e96-4ba3-9cf7-81d2572c5102")
 		)
 		(instances
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
-					(reference "J14")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -4084,82 +4084,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
 					(reference "R138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 255.27 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26014c0f-d404-4187-b7de-cb227c49e0aa")
-		(property "Reference" "J15"
-			(at 255.27 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "K2"
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8465"
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5b709f4-7ab4-4528-819f-e1ed5928afd4")
-		)
-		(pin "2"
-			(uuid "17446ec2-ef26-42c9-a1d5-bc3b911a745e")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778754e8-7008-4162-a177-e24f7da99cb3")
 		(property "Reference" "K2"
@@ -6139,85 +6063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 255.27 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99f81faa-9e75-45e1-885a-9fb003b204ee")
-		(property "Reference" "J16"
-			(at 255.27 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "K2"
-			(at 255.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 255.27 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72334"
-			(at 255.27 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a89e1fe3-2c5b-4174-b4e9-90b37841506a")
-		)
-		(pin "2"
-			(uuid "de0e604f-7153-4e02-a56d-16a3bbe553a5")
-		)
-		(pin "3"
-			(uuid "06969412-eaa5-43d3-9490-f4c8c44bbe79")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 69.85 107.95 0)
 		(unit 1)
@@ -6674,6 +6519,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 256.54 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b071d7a0-cd2a-4be4-b76a-91e524a262ed")
+		(property "Reference" "J26"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K1"
+			(at 256.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C695629"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72f02de2-ba88-4cf4-a5c6-684c9fa1bf30")
+		)
+		(pin "2"
+			(uuid "085b73e6-aa2f-4d2f-9caa-868e04d1b076")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4001")
 		(at 69.85 104.14 270)
 		(unit 1)
@@ -6967,7 +6888,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c20d905e-c591-4eb3-816c-889debc9b318")
 		(property "Reference" "K1"
@@ -7190,6 +7111,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 256.54 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cda0d764-6bd2-439d-ad7d-b1bfe2d09f01")
+		(property "Reference" "J25"
+			(at 256.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K1"
+			(at 256.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C695630"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac3d3500-2265-45ae-8971-776848badb27")
+		)
+		(pin "2"
+			(uuid "5af95a7a-191e-4d28-9abf-b892c190d024")
+		)
+		(pin "3"
+			(uuid "9f719441-eea5-47a3-8e17-c59e24b0af83")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 120.65 36.83 0)
 		(mirror y)
@@ -7329,85 +7329,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 256.54 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d76f8732-cab9-4c01-b251-3434f5591e0c")
-		(property "Reference" "J13"
-			(at 256.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "K1"
-			(at 256.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 256.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 256.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72334"
-			(at 256.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f12b6d0-b2ae-4bef-9d8c-1918db6eea71")
-		)
-		(pin "2"
-			(uuid "c0110257-5192-407b-a7ee-29e0348c6a22")
-		)
-		(pin "3"
-			(uuid "ddf24aa1-d0bc-4fc6-a8d9-42cb3d9d9ad0")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -7868,6 +7789,85 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
 					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 255.27 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4cc188f-d569-4020-8496-f4ea4b04dfbe")
+		(property "Reference" "J27"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2"
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C695630"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d6d0b63-b15d-4d59-b968-1b6ab5f01358")
+		)
+		(pin "2"
+			(uuid "e49fede7-9e68-4e93-837a-604d6930c016")
+		)
+		(pin "3"
+			(uuid "308c408a-6545-480f-9338-e83f75acf038")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/2435c99b-8f51-4b55-88c8-1432bd5e2bf5"
+					(reference "J27")
 					(unit 1)
 				)
 			)

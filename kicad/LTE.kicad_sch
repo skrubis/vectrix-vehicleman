@@ -4267,22 +4267,16 @@
 		)
 	)
 	(junction
-		(at 255.27 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "062c440a-2b14-4ff0-bcb0-84333da3e637")
-	)
-	(junction
 		(at 92.71 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b996a4e-b309-4a10-bb9e-eeb4ec4bfc14")
 	)
 	(junction
-		(at 220.98 71.12)
+		(at 256.54 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c576398-6511-4d29-a4be-a9d9e424b1ce")
+		(uuid "0d345046-87dd-456f-ab9f-130b4bee5c33")
 	)
 	(junction
 		(at 66.04 190.5)
@@ -4321,22 +4315,10 @@
 		(uuid "1d127270-fa02-44ed-b263-93939354fc53")
 	)
 	(junction
-		(at 238.76 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fed7a40-5175-4a5d-9d04-7eee38701314")
-	)
-	(junction
 		(at 238.76 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "232f14a4-9fc4-49b4-a261-e95961d3d74e")
-	)
-	(junction
-		(at 158.75 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24b510c2-59a9-4343-9700-d828aae5d1fd")
 	)
 	(junction
 		(at 91.44 114.3)
@@ -4345,22 +4327,16 @@
 		(uuid "26354c24-5ee4-49e5-85ed-b605a3bb9569")
 	)
 	(junction
-		(at 255.27 146.05)
+		(at 220.98 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33235ed8-3a59-4314-adce-2e891f1e55a1")
+		(uuid "2d453695-9306-42f0-83f9-2390c3b936b2")
 	)
 	(junction
 		(at 38.1 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36c3ad33-6e70-4f15-8fef-2d93f0e1d3ff")
-	)
-	(junction
-		(at 255.27 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "397d0f4b-54dd-4d3b-8f6d-73f126584f54")
 	)
 	(junction
 		(at 205.74 48.26)
@@ -4381,10 +4357,10 @@
 		(uuid "456fc0ae-0d71-40e3-9e2e-a4a634c5f07a")
 	)
 	(junction
-		(at 256.54 86.36)
+		(at 154.94 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "588847bb-d189-4a31-b408-77be772467a2")
+		(uuid "59631bbc-b674-48f8-9ad1-c83ae848c6db")
 	)
 	(junction
 		(at 228.6 27.94)
@@ -4393,16 +4369,10 @@
 		(uuid "5fbf9560-b998-4c42-b338-e7537c7742b4")
 	)
 	(junction
-		(at 143.51 34.29)
+		(at 238.76 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "652dd2f6-e0ba-4897-b642-faca09726f86")
-	)
-	(junction
-		(at 154.94 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "674bdafe-77f1-4478-8403-7acd68eafc94")
+		(uuid "675ad737-c1e7-4ed2-8d5f-15a34d89815b")
 	)
 	(junction
 		(at 226.06 101.6)
@@ -4429,12 +4399,6 @@
 		(uuid "7b284176-daa2-4f28-85aa-40c69da6974b")
 	)
 	(junction
-		(at 143.51 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d0bc90b-78e3-4180-b5fb-0d6f5e14e767")
-	)
-	(junction
 		(at 247.65 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4459,10 +4423,16 @@
 		(uuid "826d9097-aa3b-4ca8-bb42-5bb60f9a8d11")
 	)
 	(junction
-		(at 82.55 167.64)
+		(at 256.54 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89643f4a-30c3-44da-8586-17a58d800bfc")
+		(uuid "835b163a-e265-4c6f-b286-26af6fb10fc3")
+	)
+	(junction
+		(at 238.76 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8872d1da-211f-4b07-9896-d3c510617774")
 	)
 	(junction
 		(at 240.03 48.26)
@@ -4483,10 +4453,10 @@
 		(uuid "9967a987-f738-4811-a812-c81ef1f10e0e")
 	)
 	(junction
-		(at 238.76 78.74)
+		(at 261.62 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a14e2d61-6be2-4450-a888-211b7667af15")
+		(uuid "9e3954ba-7ea1-4009-a3bb-10c47f538469")
 	)
 	(junction
 		(at 255.27 71.12)
@@ -4529,12 +4499,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafda524-4699-488f-83b1-b23880931638")
-	)
-	(junction
-		(at 158.75 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d77fa438-d4ae-4566-8050-8e56c5e0d247")
 	)
 	(junction
 		(at 137.16 180.34)
@@ -4692,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 167.64) (xy 160.02 167.64)
+			(xy 137.16 167.64) (xy 154.94 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4832,13 +4796,33 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 88.9) (xy 256.54 86.36)
+			(xy 154.94 167.64) (xy 160.02 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b61b56a-2ebc-4850-ad60-7bf54dd6e493")
+	)
+	(wire
+		(pts
+			(xy 255.27 88.9) (xy 255.27 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c5a1c2a-4ce1-4ae9-846c-fb761b5b8bee")
+	)
+	(wire
+		(pts
+			(xy 237.49 146.05) (xy 256.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7641e1-750d-45f8-8246-941b4b9ef495")
 	)
 	(wire
 		(pts
@@ -4849,16 +4833,6 @@
 			(type default)
 		)
 		(uuid "1f033ef8-54e3-4bc2-a786-2a6170231ae8")
-	)
-	(wire
-		(pts
-			(xy 255.27 138.43) (xy 266.7 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208e7a15-2659-42ae-ab63-3347bfbfd2b7")
 	)
 	(wire
 		(pts
@@ -4902,16 +4876,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 86.36) (xy 256.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b09228-3dd6-44b0-bb6b-b0947e670dd3")
-	)
-	(wire
-		(pts
 			(xy 100.33 177.8) (xy 107.95 177.8)
 		)
 		(stroke
@@ -4952,26 +4916,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 180.34) (xy 160.02 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f5159c-033e-4616-9b1e-736c80dab311")
-	)
-	(wire
-		(pts
-			(xy 127 34.29) (xy 143.51 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b33464-4137-43c5-8d77-9386bec0a8d5")
-	)
-	(wire
-		(pts
 			(xy 228.6 35.56) (xy 238.76 35.56)
 		)
 		(stroke
@@ -4979,16 +4923,6 @@
 			(type default)
 		)
 		(uuid "33b12c4b-f0b9-4051-9f9c-e682df6d4982")
-	)
-	(wire
-		(pts
-			(xy 232.41 71.12) (xy 238.76 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3457c50d-ae18-4af5-b5e4-c8ca64c40d14")
 	)
 	(wire
 		(pts
@@ -5042,16 +4976,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 167.64) (xy 123.19 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44190301-363e-470f-acf8-f6f7063e8df0")
-	)
-	(wire
-		(pts
 			(xy 266.7 138.43) (xy 267.97 138.43)
 		)
 		(stroke
@@ -5079,16 +5003,6 @@
 			(type default)
 		)
 		(uuid "50841659-c7af-41f1-ba11-4ea58e8f4a5a")
-	)
-	(wire
-		(pts
-			(xy 256.54 86.36) (xy 257.81 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "532157f9-e654-4202-8971-baf9b75b1a7f")
 	)
 	(wire
 		(pts
@@ -5122,6 +5036,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 162.56) (xy 154.94 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b0f6b2-e1d6-4349-a151-cbba5abb941a")
+	)
+	(wire
+		(pts
 			(xy 154.94 171.45) (xy 154.94 170.18)
 		)
 		(stroke
@@ -5129,6 +5053,16 @@
 			(type default)
 		)
 		(uuid "597f096e-6bff-4028-b09c-9e47d931c28a")
+	)
+	(wire
+		(pts
+			(xy 252.73 138.43) (xy 256.54 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a72e4ad-1fdb-4387-9291-1c4658ff5c1f")
 	)
 	(wire
 		(pts
@@ -5262,16 +5196,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 138.43) (xy 255.27 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a1807d-9844-497c-8d75-9d4910c05e5d")
-	)
-	(wire
-		(pts
 			(xy 191.77 40.64) (xy 191.77 41.91)
 		)
 		(stroke
@@ -5332,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 167.64) (xy 82.55 167.64)
+			(xy 60.96 167.64) (xy 123.19 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5402,6 +5326,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 71.12) (xy 224.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912bee21-c0a1-4782-9070-af5f4ca276af")
+	)
+	(wire
+		(pts
 			(xy 255.27 71.12) (xy 259.08 71.12)
 		)
 		(stroke
@@ -5429,6 +5363,26 @@
 			(type default)
 		)
 		(uuid "9540339f-0bd5-472d-8703-2cc1656dcc2e")
+	)
+	(wire
+		(pts
+			(xy 256.54 138.43) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95497781-e4f3-4472-9d5f-6bfeade25ff1")
+	)
+	(wire
+		(pts
+			(xy 261.62 138.43) (xy 266.7 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d2d36e-6b58-4a51-b4c1-5718b6bb5fd6")
 	)
 	(wire
 		(pts
@@ -5482,16 +5436,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 26.67) (xy 127 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a49e4aab-fbc9-4235-8ef6-c4cc7a4db629")
-	)
-	(wire
-		(pts
 			(xy 200.66 35.56) (xy 217.17 35.56)
 		)
 		(stroke
@@ -5532,16 +5476,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 26.67) (xy 143.51 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace93bcc-ea07-4bd6-86b9-31f678aa6926")
-	)
-	(wire
-		(pts
 			(xy 251.46 71.12) (xy 255.27 71.12)
 		)
 		(stroke
@@ -5572,13 +5506,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 71.12) (xy 243.84 71.12)
+			(xy 232.41 71.12) (xy 238.76 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2511449-8585-4ee5-b379-f28b8f7afb23")
+	)
+	(wire
+		(pts
+			(xy 261.62 134.62) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d72d17-0c28-4cf4-bd7d-322bae8634bb")
 	)
 	(wire
 		(pts
@@ -5602,16 +5546,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 78.74) (xy 257.81 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7444d4-8c0c-4a76-835a-e6ab6b593e97")
-	)
-	(wire
-		(pts
 			(xy 210.82 97.79) (xy 177.8 97.79)
 		)
 		(stroke
@@ -5629,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "bd80ca22-d25d-4a1b-8335-383eddac0c09")
+	)
+	(wire
+		(pts
+			(xy 256.54 146.05) (xy 262.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3fc687-0a4f-4385-8344-a67fee6cebfb")
 	)
 	(wire
 		(pts
@@ -5782,26 +5726,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 71.12) (xy 224.79 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df48c0e3-2beb-49d2-a7b8-cfa9fe2a5fea")
-	)
-	(wire
-		(pts
-			(xy 255.27 146.05) (xy 262.89 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdfae09-c5dc-404d-b717-6160ec60273e")
-	)
-	(wire
-		(pts
 			(xy 38.1 82.55) (xy 44.45 82.55)
 		)
 		(stroke
@@ -5809,16 +5733,6 @@
 			(type default)
 		)
 		(uuid "e4c3582e-42f6-4311-b27f-3a9459f84f85")
-	)
-	(wire
-		(pts
-			(xy 143.51 34.29) (xy 158.75 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e62a2199-b9d0-4320-a3e7-a7d69b96536e")
 	)
 	(wire
 		(pts
@@ -5922,16 +5836,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 162.56) (xy 82.55 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7f58e0-6567-406a-8fce-bafe3ac82508")
-	)
-	(wire
-		(pts
 			(xy 177.8 97.79) (xy 177.8 99.06)
 		)
 		(stroke
@@ -5942,16 +5846,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 180.34) (xy 160.02 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f42683f8-b598-4b24-bad5-8ecbe6b34810")
-	)
-	(wire
-		(pts
 			(xy 41.91 130.81) (xy 41.91 119.38)
 		)
 		(stroke
@@ -5959,16 +5853,6 @@
 			(type default)
 		)
 		(uuid "f5133125-073a-413d-865d-47fa40668217")
-	)
-	(wire
-		(pts
-			(xy 237.49 146.05) (xy 255.27 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c54a29-b0b6-4540-b286-db52ebc771a1")
 	)
 	(wire
 		(pts
@@ -6029,6 +5913,16 @@
 			(type default)
 		)
 		(uuid "fc7e2faf-7925-4db3-ad82-a79871fea4fc")
+	)
+	(wire
+		(pts
+			(xy 238.76 71.12) (xy 243.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8c6ae5-dcaa-4330-a915-79c1f20168db")
 	)
 	(label "SIM_RST"
 		(at 132.08 109.22 180)
@@ -6103,7 +5997,7 @@
 		(uuid "43fd2941-a891-4bbd-be07-9a1842c2dd53")
 	)
 	(label "GPS_VCC"
-		(at 256.54 88.9 270)
+		(at 255.27 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6591,6 +6485,163 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 255.27 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0457fdd0-c7e9-42ec-a5ea-fdc8bf3c80c6")
+		(property "Reference" "R144"
+			(at 255.27 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R 0402"
+			(at 251.968 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 253.492 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e095760-c15a-4e5b-b14e-b33e29f15fec")
+		)
+		(pin "1"
+			(uuid "0279167e-a889-4fd9-9242-9488a359508f")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "R144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 220.98 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "084a4bc0-fa06-4dae-99e2-a31237d899e6")
+		(property "Reference" "L6"
+			(at 222.25 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27nH"
+			(at 222.25 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12669"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bab2f64-6ed6-4ea4-a91f-cb8d6740228b")
+		)
+		(pin "2"
+			(uuid "f5757e01-6809-4054-9a33-414fd0951f5e")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -7131,94 +7182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 160.02 173.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1379150a-9366-4cc9-9bd4-98732726f088")
-		(property "Reference" "D26"
-			(at 162.56 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 162.56 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 165.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 154.94 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 160.02 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 119.38 73.66 270)
 		(unit 1)
@@ -7749,43 +7712,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 71.12 270)
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 154.94 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e734055-99bc-49be-9f08-cf09dfc1fed7")
-		(property "Reference" "R127"
-			(at 226.06 71.12 90)
+		(fields_autoplaced yes)
+		(uuid "2c70ed15-5fad-462f-879a-5d54749e6b41")
+		(property "Reference" "D26"
+			(at 157.48 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0R 0603"
-			(at 224.282 67.818 90)
+		(property "Value" "PESD5V0L4UG"
+			(at 157.48 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 228.6 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 71.12 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 149.86 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,8 +7748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 228.6 71.12 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 160.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,8 +7757,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21189"
-			(at 228.6 71.12 0)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 154.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,16 +7766,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f9a183c5-39f0-4975-856f-d854afe3754a")
+		(property "LCSC" "C5116450"
+			(at 154.94 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "45b0f865-14c7-4fcb-8f28-ee16387c64d7")
+			(uuid "d00a5051-974d-440a-a960-0d25185ae7bf")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+		)
+		(pin "2"
+			(uuid "6e146000-2076-4723-a19b-307cd38426ac")
+		)
+		(pin "3"
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
 		)
 		(instances
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "R127")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -8147,7 +8120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R 0603"
+		(property "Value" "0R 0402"
 			(at 244.602 135.128 90)
 			(effects
 				(font
@@ -8156,7 +8129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.92 136.652 90)
 			(effects
 				(font
@@ -8183,7 +8156,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21189"
+		(property "LCSC" "C106231"
 			(at 248.92 138.43 0)
 			(effects
 				(font
@@ -8202,91 +8175,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "R128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Skrubis:R_27R_0603")
-		(at 255.27 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3838b39b-fcec-41e7-9c17-20681b3cf42b")
-		(property "Reference" "R125"
-			(at 252.73 94.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_27R_0603"
-			(at 252.73 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.048 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C101313"
-			(at 256.54 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "N"
-			(at 256.54 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bcdca4f-37b6-46bf-bc6a-92734001ba99")
-		)
-		(pin "2"
-			(uuid "2d80f94b-05ff-4861-9e8c-ecef6e476a51")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -8443,85 +8331,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39c10a16-ee40-451d-bbc0-ac30d8fd0d9c")
-		(property "Reference" "C96"
-			(at 123.19 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u 50V"
-			(at 123.19 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 126.0348 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C13585"
-			(at 127 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbf97aea-4ccd-4e16-8395-049116d1e5d3")
-		)
-		(pin "1"
-			(uuid "49200833-8cb5-4d22-9a2e-e6f396bb4dab")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -8769,6 +8578,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 228.6 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f710f1-4cb0-433f-8ff3-0b1df201b853")
+		(property "Reference" "R143"
+			(at 226.06 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R 0402"
+			(at 224.282 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.6 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59dfdae6-7b02-4b0a-baf1-752c5c5eb5f1")
+		)
+		(pin "1"
+			(uuid "1dbf3473-aa33-43d7-8c3e-3f1a39784885")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:ME6211C33M5")
 		(at 238.76 27.94 0)
 		(unit 1)
@@ -8855,6 +8742,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487d9433-d0e0-4ab7-9491-ff541e4782f5")
+		(property "Reference" "#PWR0145"
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20190f3a-299b-4472-b0e3-6ead3e99ecd4")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 25.4 44.45 90)
 		(unit 1)
@@ -8933,84 +8886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 247.65 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a9f79a5-20b3-4364-ac87-27405fa19c14")
-		(property "Reference" "C91"
-			(at 246.3799 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 248.9199 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 251.46 70.1548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 247.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 247.65 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68ba339d-d2f7-4745-acdb-964bd136097b")
-		)
-		(pin "2"
-			(uuid "80708ec6-d37e-4184-aadb-89e6921244dd")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "C91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 78.74 34.29 0)
 		(unit 1)
@@ -9083,6 +8958,85 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 71.12 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e49a490-3e86-4d6e-acec-f2f96690ad04")
+		(property "Reference" "C96"
+			(at 248.9201 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33pF 0402"
+			(at 246.3801 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 70.1548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1562"
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ab367e1-9598-495b-8b70-5cb159e16bd5")
+		)
+		(pin "2"
+			(uuid "da6b40d5-3eb5-4e06-9880-abf70322fc95")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -10465,164 +10419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 220.98 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "756299ba-75b9-4cfb-94de-5218e1e3af50")
-		(property "Reference" "L7"
-			(at 222.25 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27nH"
-			(at 222.25 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 220.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 220.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C90208"
-			(at 220.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6926edb7-024c-4aa4-be86-8d9868766fb8")
-		)
-		(pin "2"
-			(uuid "cde6dfe5-90b6-4330-a150-58d2fb1ab5cd")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "L7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 255.27 142.24 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "778fd31c-a673-43eb-8a96-01f88ae3618c")
-		(property "Reference" "C92"
-			(at 251.46 143.5101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 251.46 140.9701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 256.2352 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 255.27 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da4b087d-32dd-48b8-88c3-a39749dc22d3")
-		)
-		(pin "2"
-			(uuid "6b2a867d-a0c2-4dd4-9dd5-3f51217bf4f5")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 137.16 175.26 0)
 		(unit 1)
@@ -10774,6 +10570,93 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "R121")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 160.02 173.99 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d4cc296-737b-4911-b950-c292ebdef0be")
+		(property "Reference" "D26"
+			(at 162.56 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 162.56 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 165.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 154.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 160.02 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
+		)
+		(pin "3"
+			(uuid "349af938-270d-4716-934c-ba11b20a224d")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "D26")
+					(unit 2)
 				)
 			)
 		)
@@ -10942,7 +10825,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33pF 0603"
+		(property "Value" "33pF 0402"
 			(at 233.68 140.9701 0)
 			(effects
 				(font
@@ -10951,7 +10834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.4552 138.43 0)
 			(effects
 				(font
@@ -10978,7 +10861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107047"
+		(property "LCSC" "C1562"
 			(at 237.49 142.24 0)
 			(effects
 				(font
@@ -11651,85 +11534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 238.76 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a4f0d4f5-7c2a-4e38-a170-fe80cea10d5d")
-		(property "Reference" "L6"
-			(at 237.49 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27nH"
-			(at 237.49 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 238.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 238.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C90208"
-			(at 238.76 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e8fe959-fbf9-4d66-8177-33830c08644a")
-		)
-		(pin "2"
-			(uuid "88c2b680-db76-4820-8fc7-a83e8cb7f4a4")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 88.9 119.38 0)
 		(unit 1)
@@ -12129,7 +11933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27nH"
+		(property "Value" "47nH"
 			(at 256.54 76.1999 0)
 			(effects
 				(font
@@ -12138,7 +11942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 255.27 74.93 0)
 			(effects
 				(font
@@ -12165,7 +11969,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C90208"
+		(property "LCSC" "C97998"
 			(at 255.27 74.93 0)
 			(effects
 				(font
@@ -13091,6 +12895,85 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 256.54 142.24 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c3c18197-94b2-4bdd-8908-fa24098b5b59")
+		(property "Reference" "C95"
+			(at 252.73 143.5101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33pF 0402"
+			(at 252.73 140.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 257.5052 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1562"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968a74f5-75d5-49e8-a096-8aaee176c6ef")
+		)
+		(pin "2"
+			(uuid "f5d38ed1-4083-4faa-8da5-a4a72c737f4c")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 158.75 30.48 0)
 		(mirror y)
 		(unit 1)
@@ -13247,94 +13130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 82.55 160.02 270)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd41bfba-3b09-4ffb-91e4-f5b0356ba933")
-		(property "Reference" "D26"
-			(at 85.09 161.2901 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 85.09 158.7501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 87.63 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 77.47 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 82.55 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 82.55 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "D26")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 133.35 0)
 		(unit 1)
@@ -13395,84 +13190,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d75816fb-035a-48d3-920e-43d579089c87")
-		(property "Reference" "C97"
-			(at 139.7 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF 50V"
-			(at 139.7 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.4752 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 143.51 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b2f4177-d42f-4421-9ac4-bcd01d3b2d8d")
-		)
-		(pin "2"
-			(uuid "6acebcbe-ad7f-42e6-9ab7-ea31e22e3c8d")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -13616,84 +13333,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1b9c8d2-32b2-4381-902c-d53e12da806c")
-		(property "Reference" "R129"
-			(at 228.6 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R 0603"
-			(at 226.822 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 231.14 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 231.14 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a47c40f0-be42-4658-9a08-b8314c20bb7f")
-		)
-		(pin "1"
-			(uuid "51bd8524-fa0e-484a-80fc-3996ee6ca012")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -14078,6 +13717,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 238.76 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f26e8f69-4a25-4ce2-98dc-aaf4916e122a")
+		(property "Reference" "L7"
+			(at 240.03 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27nH"
+			(at 240.03 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12669"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b26d521-4e3d-416f-bba7-84e25ab30721")
+		)
+		(pin "2"
+			(uuid "d1f022dc-2bd3-4231-aae1-2888c44144c2")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 196.85 40.64 0)
 		(unit 1)
@@ -14342,33 +14060,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Skrubis:R_27R_0603")
-		(at 257.81 82.55 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 231.14 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f90eadbe-d62c-46f9-97a0-0a22db4ed483")
-		(property "Reference" "R126"
-			(at 260.35 94.234 90)
+		(uuid "f6e62d37-c39f-429b-bfc8-6741343db060")
+		(property "Reference" "R129"
+			(at 228.6 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R_27R_0603"
-			(at 260.35 85.344 90)
+		(property "Value" "0R 0402"
+			(at 226.822 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.032 82.55 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 231.14 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 82.55 0)
+			(at 231.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,8 +14104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 82.55 0)
+		(property "Description" "Resistor"
+			(at 231.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,34 +14113,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C101313"
-			(at 256.54 74.93 90)
+		(property "LCSC" "C106231"
+			(at 231.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Stock" "N"
-			(at 256.54 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b85f1238-0fa5-4050-a662-10a74468912b")
 		)
 		(pin "2"
-			(uuid "12e4d0be-e4a4-4207-838f-64f80680a6f0")
+			(uuid "2d3fe4e1-b579-4024-9872-ac89f8e114d1")
+		)
+		(pin "1"
+			(uuid "e95a4717-e577-41d3-a5fa-72cf53dd67b6")
 		)
 		(instances
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "R126")
+					(reference "R129")
 					(unit 1)
 				)
 			)

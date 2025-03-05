@@ -733,234 +733,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:GDT_2Pin"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "GD"
-				(at 5.08 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GDT_2Pin"
-				(at 7.62 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Gas Discharge Tube with 2 Pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "gdt"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GDT_2Pin_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.5814)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.905 0)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.905 0)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.905 0)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GDT_2Pin_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers
 				(hide yes)
@@ -1824,6 +1596,245 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GDT_2Pin_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GD2"
+				(at 5.08 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GDT_2Pin"
+				(at 5.08 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gas Discharge Tube with 2 Pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C9235"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "gdt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GDT_2Pin_1_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.5814)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GDT_2Pin_1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3134,142 +3145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+VDC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+VDC"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+VDC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+VDC_0_1"
-				(polyline
-					(pts
-						(xy -1.143 3.175) (xy 1.143 3.175)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+VDC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3496,10 +3371,10 @@
 		(uuid "0bc89b95-bfb1-4f6d-a746-f48829b200f4")
 	)
 	(junction
-		(at 38.1 115.57)
+		(at 186.69 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20a395fd-e95d-4636-b0d5-d3fc29abbf5b")
+		(uuid "1cf6ed5f-dd13-4786-8d67-423d2f6d6bec")
 	)
 	(junction
 		(at 90.17 173.99)
@@ -3562,6 +3437,12 @@
 		(uuid "497cb7a9-1414-448f-a81d-6ca977ce6f8c")
 	)
 	(junction
+		(at 29.21 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4c3201-062e-4a02-a94b-866c7487ff39")
+	)
+	(junction
 		(at 220.98 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3574,10 +3455,22 @@
 		(uuid "4c58897f-b46e-4cbc-93a7-13ceb3733ba4")
 	)
 	(junction
+		(at 38.1 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f7c047d-0478-4eee-9d58-0ac18cfeb00f")
+	)
+	(junction
+		(at 38.1 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fdb5151-3e78-45b3-ba7b-bfb46f6b7c2f")
+	)
+	(junction
 		(at 38.1 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b543df1-7fd8-48c4-9791-05d275f3d59e")
+		(uuid "5f3ed027-60db-454c-ab49-f2f9fa9db09e")
 	)
 	(junction
 		(at 107.95 162.56)
@@ -3590,6 +3483,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61e9fa8a-b6a3-4bae-a45d-5b7c000010b1")
+	)
+	(junction
+		(at 24.13 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f4aa7a-82d0-42d6-b6ea-ac2eb6cd8fde")
 	)
 	(junction
 		(at 191.77 83.82)
@@ -3614,12 +3513,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b589d5c-161c-46cf-87da-149d57f81a03")
-	)
-	(junction
-		(at 38.1 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70d52fdc-c778-4c3c-b39c-e152372c4913")
 	)
 	(junction
 		(at 90.17 162.56)
@@ -3670,6 +3563,12 @@
 		(uuid "930f6968-ce0f-4ac3-889c-9e6d4c5ee4ac")
 	)
 	(junction
+		(at 181.61 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "932196ac-a963-45a5-a4c9-38973eda4c87")
+	)
+	(junction
 		(at 38.1 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3680,12 +3579,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97e0a867-5607-4f69-93f8-f897a404af6b")
-	)
-	(junction
-		(at 50.8 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97f3eeb2-c1d0-4e2a-a952-c27d4aad28b6")
 	)
 	(junction
 		(at 107.95 69.85)
@@ -3704,12 +3597,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec18b0e-bb5a-4f0f-bee5-75814efbcce6")
-	)
-	(junction
-		(at 186.69 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a145ca5f-05d8-4330-9bb4-6b397dfcf598")
 	)
 	(junction
 		(at 60.96 92.71)
@@ -3760,6 +3647,12 @@
 		(uuid "bf33afb5-7973-4529-b76d-612750ec56ed")
 	)
 	(junction
+		(at 38.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53aeca6-757d-400b-82ce-56e04576f45f")
+	)
+	(junction
 		(at 90.17 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3784,6 +3677,12 @@
 		(uuid "cd97268c-6e05-4256-899a-53354dcf6aa9")
 	)
 	(junction
+		(at 38.1 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cec99b1d-a528-41c5-8632-4dde2625e30f")
+	)
+	(junction
 		(at 60.96 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3796,16 +3695,22 @@
 		(uuid "d285634a-810f-4c34-8793-2d8cc56048a7")
 	)
 	(junction
+		(at 50.8 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9228ae7-0263-44a6-8880-3e68db587ff0")
+	)
+	(junction
 		(at 180.34 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db6fecb7-2c5f-42de-b237-78cadcf3d7f4")
 	)
 	(junction
-		(at 181.61 29.21)
+		(at 26.67 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd152f1a-1859-4cee-b0eb-5dbd5eda67e8")
+		(uuid "de05b6b9-277c-4e2e-a687-ec02483a5936")
 	)
 	(junction
 		(at 77.47 115.57)
@@ -3848,18 +3753,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f341b627-c8e4-40cc-af7c-0952cde286ad")
-	)
-	(junction
-		(at 38.1 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6e5276f-8a1b-42c6-9ed9-9751c01315fc")
-	)
-	(junction
-		(at 38.1 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f967e99a-542b-4759-8c26-dd11c231ce5b")
 	)
 	(junction
 		(at 60.96 69.85)
@@ -3916,6 +3809,16 @@
 			(type default)
 		)
 		(uuid "0358aae7-674f-43cc-8d05-5053c0df27bd")
+	)
+	(wire
+		(pts
+			(xy 21.59 158.75) (xy 26.67 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04056e2f-effa-41df-bc15-cd8f1b44a851")
 	)
 	(wire
 		(pts
@@ -4029,6 +3932,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 156.21) (xy 29.21 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f428c6-33f1-4167-9f59-b3cee2082603")
+	)
+	(wire
+		(pts
 			(xy 60.96 162.56) (xy 60.96 165.1)
 		)
 		(stroke
@@ -4049,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 115.57) (xy 43.18 115.57)
+			(xy 31.75 115.57) (xy 38.1 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 29.21) (xy 195.58 29.21)
+			(xy 179.07 29.21) (xy 186.69 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4089,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 69.85) (xy 43.18 69.85)
+			(xy 31.75 69.85) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4209,16 +4122,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 107.95) (xy 107.95 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29191d09-08ec-40c2-b003-b28ea7df0bbd")
-	)
-	(wire
-		(pts
 			(xy 107.95 69.85) (xy 123.19 69.85)
 		)
 		(stroke
@@ -4269,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 69.85) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce86c89-d5cf-4604-98cf-b3428bafd83c")
+	)
+	(wire
+		(pts
 			(xy 203.2 29.21) (xy 207.01 29.21)
 		)
 		(stroke
@@ -4309,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 162.56) (xy 43.18 162.56)
+			(xy 31.75 162.56) (xy 38.1 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4349,13 +4262,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 107.95 154.94)
+			(xy 181.61 31.75) (xy 181.61 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a5ace7f-c99c-4831-ae36-9bfa1e772461")
+		(uuid "3bef8e95-41cc-4c59-a73e-e990d1c3341e")
 	)
 	(wire
 		(pts
@@ -4409,13 +4322,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 162.56) (xy 38.1 162.56)
+			(xy 26.67 158.75) (xy 26.67 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46cb793f-300d-4353-875b-ec34588518fb")
+		(uuid "449d27ad-5000-479d-99c7-6b9bfad67d33")
 	)
 	(wire
 		(pts
@@ -4479,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 162.56) (xy 43.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8adf92-952a-4aa1-8f81-6a5491252dc1")
+	)
+	(wire
+		(pts
 			(xy 77.47 130.81) (xy 77.47 138.43)
 		)
 		(stroke
@@ -4499,23 +4422,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 171.45) (xy 31.75 171.45)
+			(xy 21.59 171.45) (xy 29.21 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "56a6c296-c5e1-486a-8e3d-5214ca9268c0")
-	)
-	(wire
-		(pts
-			(xy 148.59 153.67) (xy 149.86 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573af75d-6d12-4492-945a-b83f228fd4b3")
 	)
 	(wire
 		(pts
@@ -4579,16 +4492,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 92.71) (xy 43.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef62466-bd48-4da9-9e8d-8e97cd37b1c4")
-	)
-	(wire
-		(pts
 			(xy 180.34 104.14) (xy 191.77 104.14)
 		)
 		(stroke
@@ -4636,16 +4539,6 @@
 			(type default)
 		)
 		(uuid "60d6c5ae-df04-44ed-9e59-9a5f4140607e")
-	)
-	(wire
-		(pts
-			(xy 38.1 138.43) (xy 43.18 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6290e34b-524b-4794-ab71-cfd03459d565")
 	)
 	(wire
 		(pts
@@ -4819,13 +4712,33 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 29.21) (xy 181.61 29.21)
+			(xy 38.1 138.43) (xy 43.18 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b6b6a71-d9d3-463e-89bb-1537b126c28f")
+		(uuid "797d0b06-b257-4a1f-8204-ff40ec047625")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 43.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a83ae74-5ce0-4438-a81a-d36ca12ad120")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 43.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c60c8f6-8125-42d9-b532-ca72e87b6e24")
 	)
 	(wire
 		(pts
@@ -4859,16 +4772,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 115.57) (xy 38.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80234cb9-aaa2-457a-ab68-7ee5fd3526e0")
-	)
-	(wire
-		(pts
 			(xy 152.4 48.26) (xy 152.4 43.18)
 		)
 		(stroke
@@ -4879,13 +4782,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 43.18 29.21)
+			(xy 186.69 29.21) (xy 195.58 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8413e857-0c31-422c-9f18-69d4bf2f3c94")
+		(uuid "83db8486-d4ac-459c-a830-4420165b4bc7")
 	)
 	(wire
 		(pts
@@ -4969,6 +4872,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 161.29) (xy 24.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e87c6a1-ebb8-464d-a025-df93745d6101")
+	)
+	(wire
+		(pts
 			(xy 134.62 43.18) (xy 140.97 43.18)
 		)
 		(stroke
@@ -5039,6 +4952,26 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 156.21) (xy 29.21 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94777c69-bd1a-4853-9eea-ab0433768085")
+	)
+	(wire
+		(pts
+			(xy 186.69 40.64) (xy 186.69 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b0801d-1995-4106-8f0a-9cb50829ed2f")
+	)
+	(wire
+		(pts
 			(xy 123.19 43.18) (xy 134.62 43.18)
 		)
 		(stroke
@@ -5046,16 +4979,6 @@
 			(type default)
 		)
 		(uuid "97b2478c-c983-47d0-a4b6-405cb268aec9")
-	)
-	(wire
-		(pts
-			(xy 97.79 62.23) (xy 107.95 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "980dc710-7fda-4fd5-9a78-1641ef40d2fc")
 	)
 	(wire
 		(pts
@@ -5069,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 176.53) (xy 31.75 176.53)
+			(xy 21.59 176.53) (xy 24.13 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5086,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "9cd04f4a-e705-499c-88f6-f06d6297ec07")
-	)
-	(wire
-		(pts
-			(xy 162.56 151.13) (xy 171.45 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2e266b-3a15-4dcf-89fe-e24bd788cb17")
 	)
 	(wire
 		(pts
@@ -5289,6 +5202,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 31.75) (xy 195.58 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7c099b-1376-469b-b047-59ac973fdadc")
+	)
+	(wire
+		(pts
 			(xy 107.95 138.43) (xy 123.19 138.43)
 		)
 		(stroke
@@ -5339,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 31.75) (xy 195.58 31.75)
+			(xy 179.07 31.75) (xy 181.61 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5449,16 +5372,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 29.21) (xy 181.61 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f373b1-84be-46fc-9c6f-239ae8079417")
-	)
-	(wire
-		(pts
 			(xy 90.17 123.19) (xy 90.17 127)
 		)
 		(stroke
@@ -5519,16 +5432,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 38.1 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd69af40-e188-4c41-82e6-0e6f9296b6ed")
-	)
-	(wire
-		(pts
 			(xy 220.98 83.82) (xy 232.41 83.82)
 		)
 		(stroke
@@ -5536,6 +5439,16 @@
 			(type default)
 		)
 		(uuid "de31a0ae-0761-44f4-8dad-b459dc38916f")
+	)
+	(wire
+		(pts
+			(xy 21.59 161.29) (xy 24.13 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09ef11f-937d-4350-8c68-9012c977b2da")
 	)
 	(wire
 		(pts
@@ -5569,23 +5482,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 151.13) (xy 154.94 151.13)
+			(xy 29.21 171.45) (xy 31.75 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2998259-3f73-4ef7-ab64-7df8bbca0e65")
+		(uuid "e6823570-662b-46b7-a361-36d784c19dba")
 	)
 	(wire
 		(pts
-			(xy 181.61 29.21) (xy 186.69 29.21)
+			(xy 26.67 173.99) (xy 38.1 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6e51823-b213-4be7-a054-cb5470a11835")
+		(uuid "e77a60e7-c130-48de-90fb-81a6fc0d4c7c")
 	)
 	(wire
 		(pts
@@ -5669,13 +5582,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 29.21) (xy 186.69 40.64)
+			(xy 38.1 115.57) (xy 43.18 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2146c59-cd03-444e-a84b-de70d28545cf")
+		(uuid "f48a0d7b-3ef1-444d-95c9-30b9c7c4a290")
 	)
 	(wire
 		(pts
@@ -5709,13 +5622,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 153.67) (xy 149.86 158.75)
+			(xy 24.13 176.53) (xy 31.75 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9a11026-d9fa-498e-99ae-e81d97532544")
+		(uuid "fb2e3da4-2a58-4ba0-8b89-f7fa4e4d0111")
 	)
 	(wire
 		(pts
@@ -5729,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 173.99) (xy 38.1 173.99)
+			(xy 21.59 173.99) (xy 26.67 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5919,6 +5832,30 @@
 			)
 		)
 	)
+	(global_label "HV+"
+		(shape input)
+		(at 251.46 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "98f1ad7a-04fe-4026-9535-4dd6052102fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.9127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_H_TWAI"
 		(shape input)
 		(at 123.19 162.56 0)
@@ -6038,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 173.99 29.21 0)
 			(effects
 				(font
@@ -6065,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8465"
+		(property "LCSC" "C695629"
 			(at 173.99 29.21 0)
 			(effects
 				(font
@@ -6084,72 +6021,6 @@
 			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00b6df8e-b07d-4724-86ff-38705b9e33c2")
-		(property "Reference" "#PWR0145"
-			(at 149.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "566af7bd-3142-4747-8e54-05983b93f9f5")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -6529,44 +6400,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 46.99 31.75 270)
+		(lib_id "Skrubis:D_Schottky_3A_40V")
+		(at 35.56 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0cf7c2b4-0919-4b0e-b06d-bccf391c8a1b")
-		(property "Reference" "F42"
-			(at 48.26 34.29 0)
+		(uuid "11f28f75-3ef2-4573-bee2-eb858991feaa")
+		(property "Reference" "D40"
+			(at 27.686 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "200mA PTC"
-			(at 45.72 34.29 0)
+		(property "Value" "D_Schottky_5A_360mV@5A"
+			(at 27.686 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 41.91 33.02 0)
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 35.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 31.75 0)
+			(at 35.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 31.75 0)
+			(at 35.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,25 +6451,24 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2840556"
-			(at 46.99 31.75 0)
+		(property "LCSC" "C50603"
+			(at 35.8775 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b3957a5a-4210-44d5-8bac-3dfa5634d75f")
+			(uuid "9ee49393-b635-4e0e-a02e-3cfeb5c8f5e0")
 		)
 		(pin "2"
-			(uuid "bca51c7b-3149-4667-a0f6-ba84821d5b89")
+			(uuid "00364162-37a9-4f9e-a0ad-d94b93b9cc31")
 		)
 		(instances
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "F42")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -6686,16 +6553,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 107.95 146.05 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 215.9 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2a7e885a-c98b-40f6-9c5d-96e33e3e6db0")
-		(property "Reference" "#PWR039"
-			(at 107.95 152.4 0)
+		(fields_autoplaced yes)
+		(uuid "2eed9bc1-605d-469b-9621-a9102f5c9e3d")
+		(property "Reference" "J19"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW3"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,16 +6588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 111.76 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 146.05 0)
+		(property "Datasheet" "~"
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,8 +6597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 146.05 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,8 +6606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 146.05 0)
+		(property "LCSC" "C695629"
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,12 +6616,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "26711f92-7a43-4523-b700-2fb89b756703")
+			(uuid "24406213-fd62-4a77-9b1f-3958b3f8db15")
+		)
+		(pin "2"
+			(uuid "a11c4bc5-206a-435f-92d5-3848776b2b85")
 		)
 		(instances
-			(project "vehicle-manager-0"
+			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR039")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -7058,6 +6938,86 @@
 		)
 	)
 	(symbol
+		(lib_name "GDT_2Pin_1")
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "35afbffd-539f-4a1b-b917-51226ae5c433")
+		(property "Reference" "GD5"
+			(at 43.18 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GDT_2Pin"
+			(at 43.18 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 38.1 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube with 2 Pins"
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9235"
+			(at 38.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35e27a3c-331c-4b3a-ad37-898591f63399")
+		)
+		(pin "2"
+			(uuid "718e0899-e6ec-45f0-bed2-251551385cc6")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "GD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 46.99 162.56 90)
 		(unit 1)
@@ -7213,85 +7173,6 @@
 			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:GDT_2Pin")
-		(at 38.1 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "43b3a3e0-f162-4972-95ee-f1b54eb9ee15")
-		(property "Reference" "GD5"
-			(at 43.18 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GDT_2Pin"
-			(at 43.18 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 38.1 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 38.1 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C9235"
-			(at 38.1 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3dd13d1-384e-4676-9b11-aadb710f32b4")
-		)
-		(pin "3"
-			(uuid "a34dd181-8188-40d6-b9fa-bbafac25ed13")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "GD5")
 					(unit 1)
 				)
 			)
@@ -7534,17 +7415,18 @@
 		)
 	)
 	(symbol
+		(lib_name "GDT_2Pin_1")
 		(lib_id "Device:GDT_2Pin")
-		(at 38.1 87.63 0)
+		(at 38.1 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "559054f6-92ce-45fa-9883-97b1cd96e0cf")
-		(property "Reference" "GD6"
-			(at 43.18 86.3599 0)
+		(uuid "5052b20a-b47d-4505-95b5-805455243a69")
+		(property "Reference" "GD4"
+			(at 43.18 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7435,7 @@
 			)
 		)
 		(property "Value" "GDT_2Pin"
-			(at 43.18 88.8999 0)
+			(at 43.18 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7444,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 38.1 87.63 90)
+			(at 38.1 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7571,7 +7453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 87.63 90)
+			(at 38.1 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,7 +7462,7 @@
 			)
 		)
 		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 38.1 87.63 0)
+			(at 38.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,7 +7471,7 @@
 			)
 		)
 		(property "LCSC" "C9235"
-			(at 38.1 87.63 0)
+			(at 38.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,15 +7480,173 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f37b083-f1e6-494b-beac-da275aac08e4")
+			(uuid "8787c743-b965-4a2f-a4f9-3c6e278ba5d0")
 		)
-		(pin "3"
-			(uuid "ccc1a928-8504-4990-80aa-da2fa9b8a68d")
+		(pin "2"
+			(uuid "13ad9a91-34c0-4e57-b07f-af644cf2569f")
 		)
 		(instances
-			(project "vehicle-manager-0"
+			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "GD6")
+					(reference "GD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 215.9 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "505c762b-53c3-4e01-8067-3b49fb47344d")
+		(property "Reference" "J20"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW4"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C695629"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c635a896-f0f4-4664-b6ce-334d2fb56507")
+		)
+		(pin "2"
+			(uuid "f6c2e3e5-9c49-4e03-9545-6a3e10508788")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GDT_2Pin_1")
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5698a959-6689-48dc-91e6-aea7983aab03")
+		(property "Reference" "GD3"
+			(at 43.18 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GDT_2Pin"
+			(at 43.18 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 38.1 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube with 2 Pins"
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9235"
+			(at 38.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55ef02e-0325-4cc1-8169-7ce176352746")
+		)
+		(pin "2"
+			(uuid "d3492d94-622a-4ce6-b1d0-2d5e5f826c69")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "GD3")
 					(unit 1)
 				)
 			)
@@ -7673,85 +7713,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "#PWR0219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "5bab0a9b-66e5-42d8-982e-0b685d00bc0f")
-		(property "Reference" "C45"
-			(at 111.76 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 111.76 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.9848 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 107.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16158da7-9d98-412e-bca6-79297e600325")
-		)
-		(pin "2"
-			(uuid "1dfc5cc6-4a46-4350-bcfd-544ece78794f")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -7831,6 +7792,84 @@
 			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 175.26 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d5007b5-a0c3-47ba-b76e-02711e6be575")
+		(property "Reference" "J18"
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW2"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C695629"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e16d9e8-6c6b-47e6-8e57-ad4366139a29")
+		)
+		(pin "2"
+			(uuid "ac84b9d0-2394-44ef-981b-57db7f6934bd")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -7968,164 +8007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:GDT_2Pin")
-		(at 38.1 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64af1158-050a-470a-a4f3-192bba5c5d63")
-		(property "Reference" "GD3"
-			(at 43.18 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GDT_2Pin"
-			(at 43.18 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 38.1 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C9235"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "585c1bbe-f1e3-4621-8d96-49902ac9778b")
-		)
-		(pin "3"
-			(uuid "8f25f957-bd1d-4787-8018-52b7582f23c4")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "GD3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "69bc3c30-8682-4570-8890-6831beec6c59")
-		(property "Reference" "C46"
-			(at 111.76 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 111.76 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.9848 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 107.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd406e4e-38d9-405e-b2ea-4055791e0559")
-		)
-		(pin "2"
-			(uuid "48205ef1-385c-401c-b3f0-33f112a04164")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 46.99 29.21 90)
 		(unit 1)
@@ -8204,164 +8085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:GDT_2Pin")
-		(at 38.1 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e16e26e-8d25-469e-aa7f-74637877403d")
-		(property "Reference" "GD4"
-			(at 43.18 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GDT_2Pin"
-			(at 43.18 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 38.1 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C9235"
-			(at 38.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dcbbea9-4d49-47da-b1b5-f7934006f2c0")
-		)
-		(pin "3"
-			(uuid "b160ef7d-8030-45f9-b371-7a9f02d874f6")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "GD4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:GDT_2Pin")
-		(at 38.1 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fd96d49-ac01-42ce-adad-400830b2ed1b")
-		(property "Reference" "GD1"
-			(at 43.18 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GDT_2Pin"
-			(at 43.18 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 38.1 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Gas Discharge Tube with 2 Pins"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C9235"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff8e4732-2959-4a20-ad63-b45c28cdbb5f")
-		)
-		(pin "3"
-			(uuid "3ef90f7e-2be5-4f15-afb8-61053bc01071")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "GD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Isolator:PC817")
 		(at 115.57 45.72 0)
 		(unit 1)
@@ -8386,7 +8109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+		(property "Footprint" "Package_DIP:SMDIP-4_W7.62mm"
 			(at 110.49 50.8 0)
 			(effects
 				(font
@@ -8585,84 +8308,6 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 175.26 104.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79933f85-5f58-4ef7-aa37-d314ab693b24")
-		(property "Reference" "J18"
-			(at 175.26 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW2"
-			(at 175.26 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8465"
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f22bfbbf-9589-4270-b4af-3e3cd572cbb5")
-		)
-		(pin "2"
-			(uuid "4a5ef2f7-9c1e-4f20-a7a3-eddf08223b03")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -8973,6 +8618,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 16.51 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b4fd309-9027-4b2b-a800-df245affbc7c")
+		(property "Reference" "J5"
+			(at 16.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN SPI1"
+			(at 16.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 16.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 16.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C695630"
+			(at 16.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea2d5d07-f7c5-418d-a2bf-c9f521d15544")
+		)
+		(pin "2"
+			(uuid "b566a2e9-a637-4b47-baae-e7aa59df23db")
+		)
+		(pin "3"
+			(uuid "f41e53d6-4715-4a6b-ac54-412362479a1b")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ15CA")
 		(at 60.96 168.91 90)
 		(unit 1)
@@ -9046,85 +8772,6 @@
 			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 189.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "80b19aa8-1021-46e6-a49f-d290c3928eeb")
-		(property "Reference" "C37"
-			(at 111.76 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 111.76 190.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.9848 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 107.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e99f0b04-b147-4e36-8ffd-d16ceb472363")
-		)
-		(pin "2"
-			(uuid "046adaf2-da45-4f5d-9f0f-8205843e0aa3")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -9355,87 +9002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 26.67 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "897050a9-ed65-40cb-8b16-be60979c292e")
-		(property "Reference" "J2"
-			(at 26.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMS PWR"
-			(at 26.67 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72334"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7848922-5f80-49c9-822f-62581352ad4a")
-		)
-		(pin "2"
-			(uuid "5e710956-8d54-4ef9-b788-104614661413")
-		)
-		(pin "3"
-			(uuid "16d9418d-f1bd-4dda-9020-fd09f1382c0d")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 93.98 0)
 		(mirror y)
@@ -9634,101 +9200,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VDC")
-		(at 171.45 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f20b64e-1d8d-4096-ab0e-099488770f9b")
-		(property "Reference" "#PWR0144"
-			(at 171.45 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VDC"
-			(at 171.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b25a6afd-5bf3-495e-bd40-d1f83f500897")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 142.24 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 16.51 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(uuid "90a43b0a-4613-49fd-ad54-8a14a01c3e77")
-		(property "Reference" "C42"
-			(at 111.76 140.9699 0)
+		(fields_autoplaced yes)
+		(uuid "8f8a54b4-1710-4cc2-8ea8-8922a171d4f0")
+		(property "Reference" "J6"
+			(at 16.51 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "33pF 0603"
-			(at 111.76 143.5099 0)
+		(property "Value" "CAN SPI2"
+			(at 16.51 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.9848 146.05 0)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,7 +9236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 142.24 0)
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,8 +9244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 142.24 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,8 +9253,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107047"
-			(at 107.95 142.24 0)
+		(property "LCSC" " C695630"
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,15 +9263,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "798131e5-1c40-42e5-977c-711442ef3fb8")
+			(uuid "4630e97e-4c20-42a8-a783-e1043efcad9f")
 		)
 		(pin "2"
-			(uuid "c343cc0e-8f67-4e71-9bae-d5c02bfadaf8")
+			(uuid "6aff8341-d049-4340-8f94-55047d4b854b")
+		)
+		(pin "3"
+			(uuid "573ab58c-aa04-4ec3-8ece-3b7e24bc5b09")
 		)
 		(instances
-			(project "vehicle-manager-0"
+			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "C42")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9858,84 +9360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 215.9 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99f4e426-bea0-40fe-be3b-060cc4744a08")
-		(property "Reference" "J19"
-			(at 215.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW3"
-			(at 215.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8465"
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0324f7ae-cd15-440c-845e-6ca61976952f")
-		)
-		(pin "2"
-			(uuid "f0dce3b2-e232-455d-94e4-e7beaccfb816")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 46.99 69.85 90)
 		(unit 1)
@@ -10014,246 +9438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 215.9 104.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dd8bbee-f5fd-49f5-b499-0f60822b1304")
-		(property "Reference" "J20"
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW3"
-			(at 215.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8465"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7355858-9985-48c9-97a8-6fce07a3a1e8")
-		)
-		(pin "2"
-			(uuid "52844b4d-54cf-47aa-9ee6-708ccc69b6ca")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 16.51 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e29b121-177f-47cc-8eed-fc5fbec01fc7")
-		(property "Reference" "J5"
-			(at 16.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAN SPI 1"
-			(at 16.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 16.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 16.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72334"
-			(at 16.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97c2e23a-5c09-43bf-b804-d9acdab8d897")
-		)
-		(pin "2"
-			(uuid "dbb995d1-80b0-4533-8997-643e824a58f1")
-		)
-		(pin "3"
-			(uuid "eff4faea-1033-42cb-8c41-a122b6437d27")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 16.51 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a0d79b38-4ffc-46df-af58-807652546eda")
-		(property "Reference" "J6"
-			(at 16.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAN SPI 2"
-			(at 16.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 16.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 16.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72334"
-			(at 16.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11758977-7245-4a1b-aa5e-b44f33f3613b")
-		)
-		(pin "2"
-			(uuid "18bded84-4ebd-4a69-bd68-5d44593dc4d5")
-		)
-		(pin "3"
-			(uuid "0e602ba7-8f11-4b24-b1e8-7019e331e05a")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 64.77 127 90)
 		(unit 1)
@@ -10315,6 +9499,86 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GDT_2Pin_1")
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a8f67ecd-bfca-442b-a049-7be224f51950")
+		(property "Reference" "GD6"
+			(at 43.18 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GDT_2Pin"
+			(at 43.18 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 38.1 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube with 2 Pins"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9235"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a89afbf5-83c6-48e0-affb-0aaf051d9f5a")
+		)
+		(pin "2"
+			(uuid "296d3bf6-0ac6-440c-a4c6-c9eb3ba74087")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "GD6")
 					(unit 1)
 				)
 			)
@@ -10924,309 +10188,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 107.95 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b829f4c9-42c1-405c-ae2d-bc5f196f825e")
-		(property "Reference" "C38"
-			(at 111.76 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 111.76 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.9848 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 107.95 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "869028a0-cde3-45fc-bef1-7b6f1b9c328d")
-		)
-		(pin "2"
-			(uuid "b0991fac-a23b-4263-8a80-d64192790fbd")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b979edad-7957-4eaa-9724-75cf53549137")
-		(property "Reference" "#PWR043"
-			(at 107.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29a026f7-90fc-47ee-b12d-9238e5169345")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 26.67 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9c8bdfa-78a8-4b3e-ad55-a27efa2b6f8d")
-		(property "Reference" "J1"
-			(at 26.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR"
-			(at 26.67 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 26.67 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C72334"
-			(at 26.67 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1423d97d-ca4f-4cc7-aee8-47860fb989a2")
-		)
-		(pin "2"
-			(uuid "2fd221a4-5d43-4ac4-96b5-42badaa5cd47")
-		)
-		(pin "3"
-			(uuid "5df1b6ab-bcfe-4e41-98b7-6bf7566fa911")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 143.51 151.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ba4d15e1-600e-482d-9d44-99f02d52bcbb")
-		(property "Reference" "J7"
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HV-IN"
-			(at 143.51 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type703_RT10N02HGLU_1x02_P9.52mm_Horizontal"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C395958"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e037b86-f71a-42d3-89e4-cdf1324397d5")
-		)
-		(pin "1"
-			(uuid "e17b2dbe-25d7-4f0a-b373-debca31029d4")
-		)
-		(instances
-			(project ""
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 46.99 115.57 90)
 		(unit 1)
@@ -11299,6 +10260,84 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 46.99 31.75 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bed90e7d-e84c-49b7-a74d-8559f6b680d4")
+		(property "Reference" "PF3"
+			(at 46.99 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "250mA"
+			(at 46.99 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C70065"
+			(at 46.99 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c66a1fc-ecff-426d-970a-6dbe538dc153")
+		)
+		(pin "2"
+			(uuid "c56be3cc-08a6-40da-8742-d834fea46a96")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "PF3")
 					(unit 1)
 				)
 			)
@@ -11442,6 +10481,87 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 26.67 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a55149-e7b4-49e4-a41a-0083a5a176f9")
+		(property "Reference" "J23"
+			(at 26.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_OUT"
+			(at 26.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 26.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C695630"
+			(at 26.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b9310f-0f10-4dbd-b141-74e258db3897")
+		)
+		(pin "2"
+			(uuid "f759d2dd-fe03-46b3-82e5-ca5900be3e6d")
+		)
+		(pin "3"
+			(uuid "17e03851-2716-4d68-9af5-6c5a5fdb6baf")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -11620,7 +10740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
 			(at 16.51 173.99 0)
 			(effects
 				(font
@@ -11647,7 +10767,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72334"
+		(property "LCSC" " C695630"
 			(at 16.51 173.99 0)
 			(effects
 				(font
@@ -11822,43 +10942,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 158.75 151.13 90)
+		(lib_id "power:GND")
+		(at 251.46 38.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d49a2828-b6d0-4ae7-8f6d-69dbc64fa5b4")
-		(property "Reference" "F9"
-			(at 158.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 158.75 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG500"
-			(at 163.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 151.13 0)
+		(dnp no)
+		(uuid "d64132d8-8b92-49af-bdf7-12097f8b04be")
+		(property "Reference" "#PWR0221"
+			(at 251.46 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,8 +10960,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 158.75 151.13 0)
+		(property "Value" "GND"
+			(at 254.508 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11875,16 +10977,31 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4224385a-f7ff-4a35-a451-d26292d8c278")
+		(property "Datasheet" ""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ba650f4c-6676-4151-983d-b71a8b712012")
+			(uuid "c2b90f20-0b2f-459f-b25e-2b161d637bc6")
 		)
 		(instances
-			(project ""
+			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "F9")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -12030,163 +11147,6 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 107.95 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "da6048f4-c4f9-483e-a1c4-6096cc82eaef")
-		(property "Reference" "C41"
-			(at 111.76 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33pF 0603"
-			(at 111.76 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.9848 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C107047"
-			(at 107.95 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7f6b2a8-dd5b-4b0c-adcd-42f4eaef0043")
-		)
-		(pin "2"
-			(uuid "de588f13-3345-401d-8189-66cc585dcb43")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 175.26 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db17f1a0-2258-432b-bd27-6fbd2899ce3d")
-		(property "Reference" "J17"
-			(at 175.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW1"
-			(at 175.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8465"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6e66323-f636-4e67-b3e8-c0891ac0013c")
-		)
-		(pin "2"
-			(uuid "891b791b-d5b2-4558-aee6-b17d54e861c4")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -12340,71 +11300,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de12bc83-95e3-4c13-9d31-b2ea915b0029")
-		(property "Reference" "#PWR038"
-			(at 97.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d00b59af-b743-4146-b765-f37c91991ee5")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 53.34 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12464,6 +11359,87 @@
 			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 16.51 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de945810-9d1e-4ecd-b327-c105e24333e0")
+		(property "Reference" "J22"
+			(at 16.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAN 0"
+			(at 16.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 16.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 16.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C695630"
+			(at 16.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc204733-3d04-46d0-b2b4-fa12eb9aa46c")
+		)
+		(pin "2"
+			(uuid "ce4d6074-aee1-4bf3-a0ae-9f4865cee803")
+		)
+		(pin "3"
+			(uuid "49af1725-fe66-4cbc-8105-79949255c4f7")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -12540,6 +11516,84 @@
 			(project "vehicle-manager-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 175.26 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30a8525-9e97-4595-988e-9b00e9bcc339")
+		(property "Reference" "J17"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW1"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C695629"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d70e9ed7-3641-4e2a-b3ca-e9a9e6279c91")
+		)
+		(pin "2"
+			(uuid "4b0dc50b-f9ec-4440-bda0-1887c681ddab")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -12625,71 +11679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4897219-3804-40ea-ac0a-06103174231f")
-		(property "Reference" "#PWR033"
-			(at 96.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b6dd208-9bbc-4418-b7ce-96819e14fe0b")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 107.95 180.34 0)
 		(unit 1)
@@ -12769,6 +11758,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 26.67 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6667c8d-18f7-4285-be7d-d0a1383f9706")
+		(property "Reference" "J24"
+			(at 26.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C695630"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9ea6971-2a05-436c-b3e3-473bbd08623f")
+		)
+		(pin "2"
+			(uuid "c2ebdb44-d27a-47b2-9c33-b1396150e75f")
+		)
+		(pin "3"
+			(uuid "583402eb-d972-42cf-bbf0-3dd15b5aa9e8")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GDT_2Pin_1")
 		(lib_id "Device:GDT_2Pin")
 		(at 38.1 180.34 0)
 		(unit 1)
@@ -12835,7 +11906,7 @@
 		(pin "1"
 			(uuid "4716c2b9-4026-4bd9-b839-87cb0ecd0c63")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "109e09c3-4c38-4bbb-b887-c3199049d3a7")
 		)
 		(instances
@@ -12848,16 +11919,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 62.23 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 246.38 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e870b9f7-b3d7-413e-bec5-421de8f42b82")
-		(property "Reference" "#PWR042"
-			(at 97.79 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "e8decbd9-b030-40ca-b338-743ff7858e46")
+		(property "Reference" "J1"
+			(at 246.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 246.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12865,16 +11953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 62.23 0)
+		(property "Datasheet" "~"
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,8 +11962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 97.79 62.23 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,8 +11971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 62.23 0)
+		(property "LCSC" "C8465"
+			(at 246.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,12 +11981,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d733cdb-97bb-4dab-b7c2-55a9d0e054f1")
+			(uuid "968ec63d-2073-48cf-9a8f-2eb02538bb0b")
+		)
+		(pin "2"
+			(uuid "a88d79ed-806f-44ce-b9b1-74712e892742")
 		)
 		(instances
-			(project "vehicle-manager-0"
+			(project ""
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR042")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13052,6 +12135,86 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GDT_2Pin_1")
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49860cd-1859-4aed-864a-3abe50a85fa0")
+		(property "Reference" "GD7"
+			(at 43.18 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GDT_2Pin"
+			(at 43.18 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 38.1 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube with 2 Pins"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9235"
+			(at 38.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d03bbff-4194-4da4-8ca4-421489f8414b")
+		)
+		(pin "2"
+			(uuid "66fa0c3f-056b-4779-8ece-1d7c6473b2c8")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
+					(reference "GD7")
 					(unit 1)
 				)
 			)
@@ -13489,71 +12652,6 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
 					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc540885-973d-4cbc-8a6e-6a3690a48e66")
-		(property "Reference" "#PWR034"
-			(at 107.95 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6bd1f83-31d7-4f2b-a255-6bd372798945")
-		)
-		(instances
-			(project "vehicle-manager-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/560cd317-94bd-40de-b0d0-57120fbaca65"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
