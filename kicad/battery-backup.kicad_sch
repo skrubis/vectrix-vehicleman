@@ -4187,7 +4187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V X7R 0603"
+		(property "Value" "100nF 50V"
 			(at 147.32 88.8999 0)
 			(effects
 				(font
@@ -4223,7 +4223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C314282"
+		(property "LCSC" "C14663"
 			(at 147.32 91.4399 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V X7R 0603"
+		(property "Value" "100nF 50V"
 			(at 212.09 99.0599 0)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C314282"
+		(property "LCSC" "C14663"
 			(at 212.09 101.5999 0)
 			(effects
 				(font

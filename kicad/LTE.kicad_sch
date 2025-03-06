@@ -7386,7 +7386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTE U.FL"
+		(property "Value" "u.fl"
 			(at 276.86 139.9931 0)
 			(effects
 				(font
@@ -7811,6 +7811,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20526"
+			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "078d6c3e-49f6-49ba-89d0-b828f3f687ff")
 		)
@@ -8030,6 +8039,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20526"
 			(at 48.26 119.38 0)
 			(effects
 				(font
@@ -9223,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96995"
+		(property "LCSC" " C85831"
 			(at 200.66 22.86 0)
 			(effects
 				(font
@@ -11209,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96995"
+		(property "LCSC" " C85831"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -11371,6 +11389,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20526"
 			(at 88.9 119.38 0)
 			(effects
 				(font
@@ -11800,7 +11827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GPS U.FL"
+		(property "Value" "u.fl"
 			(at 267.97 72.6831 0)
 			(effects
 				(font
@@ -13128,6 +13155,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20526"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d33bb74a-ee94-469b-bb97-1c282e5f8271")
 		)
@@ -13263,6 +13299,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 35.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20526"
 			(at 35.56 44.45 0)
 			(effects
 				(font

@@ -9106,7 +9106,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "BSS138-7-F"
 			(at 259.08 80.518 0)
 			(effects
 				(font
@@ -10205,7 +10205,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "BSS138-7-F"
 			(at 259.334 101.346 0)
 			(effects
 				(font

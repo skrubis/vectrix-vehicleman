@@ -6486,7 +6486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "C12674"
+		(property "LCSC" "C12674"
 			(at 44.45 104.14 90)
 			(effects
 				(font
@@ -7079,7 +7079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "C12674"
+		(property "LCSC" "C12674"
 			(at 44.45 175.26 90)
 			(effects
 				(font

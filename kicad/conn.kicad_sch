@@ -5967,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Value" "CP PP"
+		(property "Value" "Screwterminal 01x02"
 			(at 173.99 25.4 0)
 			(effects
 				(font
@@ -6153,6 +6153,15 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
 			(at 72.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C148219"
+			(at 72.39 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6580,7 @@
 				)
 			)
 		)
-		(property "Value" "SW3"
+		(property "Value" "Screwterminal 01x02"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -6678,6 +6687,15 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 18.0Vr, SMA(DO-214AC)"
 			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C148219"
+			(at 73.66 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7531,7 @@
 				)
 			)
 		)
-		(property "Value" "SW4"
+		(property "Value" "Screwterminal 01x02"
 			(at 215.9 100.33 0)
 			(effects
 				(font
@@ -7816,7 +7834,7 @@
 				)
 			)
 		)
-		(property "Value" "SW2"
+		(property "Value" "Screwterminal 01x02"
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -8636,7 +8654,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN SPI1"
+		(property "Value" "Screwterminal 01x03"
 			(at 16.51 120.65 0)
 			(effects
 				(font
@@ -9218,7 +9236,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN SPI2"
+		(property "Value" "Screwterminal 01x03"
 			(at 16.51 74.93 0)
 			(effects
 				(font
@@ -10505,7 +10523,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR_OUT"
+		(property "Value" "Screwterminal 01x03"
 			(at 26.67 45.72 0)
 			(effects
 				(font
@@ -10732,7 +10750,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN 0"
+		(property "Value" "Screwterminal 01x03"
 			(at 16.51 167.64 0)
 			(effects
 				(font
@@ -11383,7 +11401,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN 0"
+		(property "Value" "Screwterminal 01x03"
 			(at 16.51 152.4 0)
 			(effects
 				(font
@@ -11540,7 +11558,7 @@
 				)
 			)
 		)
-		(property "Value" "SW1"
+		(property "Value" "Screwterminal 01x02"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -11776,7 +11794,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "Screwterminal 01x03"
 			(at 26.67 25.4 0)
 			(effects
 				(font

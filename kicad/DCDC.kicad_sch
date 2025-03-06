@@ -11068,6 +11068,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C148219"
+			(at 201.93 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df35eb51-3384-4549-82e7-3303cab8a9fe")
 		)
@@ -11217,7 +11226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96995"
+		(property "LCSC" " C85831"
 			(at 212.09 207.01 0)
 			(effects
 				(font
@@ -11575,6 +11584,15 @@
 			)
 		)
 		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, Power Good, Enable, SOT-563"
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5350187"
 			(at 85.09 58.42 0)
 			(effects
 				(font
