@@ -6388,12 +6388,12 @@
 		(uuid "d6ef651a-c13f-4451-afab-7fc55c09224a")
 	)
 	(label "SD_CLK"
-		(at 327.66 218.44 180)
+		(at 327.66 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d7273255-a99c-4299-a73d-8fcb30cfa60b")
 	)
@@ -8239,6 +8239,94 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
 					(reference "R9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 303.53 226.06 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28aa3790-ac00-4e44-be14-731137b02007")
+		(property "Reference" "D42"
+			(at 304.8001 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 302.2601 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 303.53 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 303.53 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 303.53 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 303.53 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a749b")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c4513a")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085aa")
+		)
+		(pin "3"
+			(uuid "e6e3aee5-ccba-4636-8769-ca8502c048df")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bff")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
+					(reference "D42")
+					(unit 2)
 				)
 			)
 		)
@@ -10395,94 +10483,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 299.72 228.6 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "842955b1-6697-4ebf-915d-d3d560a2f87c")
-		(property "Reference" "D42"
-			(at 300.9901 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 298.4501 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 299.72 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 299.72 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 299.72 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 299.72 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a749b")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c4513a")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085aa")
-		)
-		(pin "3"
-			(uuid "a455598e-28f2-43f8-99d2-45d638db8559")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bff")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
-					(reference "D42")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 250.19 115.57 0)
 		(mirror y)
@@ -11139,93 +11139,6 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
 					(reference "R95")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 299.72 231.14 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92dd3b57-f71d-4294-9136-8244394b801d")
-		(property "Reference" "D42"
-			(at 300.9901 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 298.4501 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 299.72 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 299.72 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 299.72 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 299.72 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
-		)
-		(pin "4"
-			(uuid "57ba8343-3d8f-4e0f-b860-f548a0b08e7d")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
-					(reference "D42")
-					(unit 3)
 				)
 			)
 		)
@@ -11909,91 +11822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 303.53 226.06 180)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1793b04-f39d-4c4b-9312-6e517ca92ef1")
-		(property "Reference" "D42"
-			(at 303.276 221.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 305.308 217.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 303.53 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 303.53 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 303.53 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 303.53 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a749a")
-		)
-		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45139")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a9")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff9")
-		)
-		(pin "5"
-			(uuid "b23de3ba-b512-4dde-8060-dbc34713b21e")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
-					(reference "D42")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 250.19 82.55 0)
 		(unit 1)
@@ -12349,6 +12177,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 299.72 228.6 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c6d230-f9f6-46eb-8bc5-99baac6db250")
+		(property "Reference" "D42"
+			(at 300.9901 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 298.4501 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 299.72 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 299.72 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 299.72 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 299.72 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
+		)
+		(pin "4"
+			(uuid "4e05f616-9ea0-4eee-878c-2a5644000470")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
+		)
+		(pin "3"
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
+					(reference "D42")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 243.84 243.84 0)
 		(mirror y)
@@ -12679,6 +12595,92 @@
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
 					(reference "R29")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 299.72 231.14 0)
+		(mirror y)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8641732-42fe-423a-a8d6-6a9906cf044d")
+		(property "Reference" "D42"
+			(at 299.466 235.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 301.498 239.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 299.72 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 299.72 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 299.72 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 299.72 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a749a")
+		)
+		(pin "4"
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45139")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a9")
+		)
+		(pin "3"
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff9")
+		)
+		(pin "5"
+			(uuid "9d3b054e-568d-4dce-914b-7f569377aee8")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30"
+					(reference "D42")
+					(unit 4)
 				)
 			)
 		)

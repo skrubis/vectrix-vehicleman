@@ -274,6 +274,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Humidity:HDC1080"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1510,6 +1677,12 @@
 		(uuid "476008fd-5251-4de0-a68c-ae44bef6ecdc")
 	)
 	(junction
+		(at 49.53 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dbea0e0-184d-4dec-bfcf-66b9a60ae740")
+	)
+	(junction
 		(at 231.14 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1600,6 +1773,16 @@
 	(no_connect
 		(at 210.82 77.47)
 		(uuid "dfad579f-35b9-418e-8fd7-05e646622cef")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2f0452-34a7-4533-ae4f-f6ce3a415927")
 	)
 	(wire
 		(pts
@@ -1733,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 69.85) (xy 85.09 69.85)
+			(xy 57.15 69.85) (xy 85.09 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1770,6 +1953,16 @@
 			(type default)
 		)
 		(uuid "74eca20b-2424-4a17-82df-732b5109af15")
+	)
+	(wire
+		(pts
+			(xy 49.53 99.06) (xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786e1036-be64-458a-8a2e-fcca1cfff3cc")
 	)
 	(wire
 		(pts
@@ -1833,6 +2026,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 99.06) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954ba185-f56b-4588-b299-4fead00e3bac")
+	)
+	(wire
+		(pts
 			(xy 195.58 67.31) (xy 198.12 67.31)
 		)
 		(stroke
@@ -1843,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 82.55) (xy 60.96 69.85)
+			(xy 57.15 82.55) (xy 57.15 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1900,6 +2103,16 @@
 			(type default)
 		)
 		(uuid "acbacb23-3726-44fd-80ff-86ade5fd0924")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 49.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5bc43b-3ec9-410b-9944-f21072df3415")
 	)
 	(wire
 		(pts
@@ -2063,28 +2276,6 @@
 			)
 		)
 	)
-	(global_label "ACCEL_INT"
-		(shape input)
-		(at 210.82 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1000db6a-8cb7-4516-a921-c067b181c3ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.4814 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 144.78 124.46 0)
@@ -2103,6 +2294,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACCEL_PD_INT"
+		(shape input)
+		(at 74.93 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "434687ae-d0bc-4696-bb1a-6d61d30fa97b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.761 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2151,9 +2364,9 @@
 			)
 		)
 	)
-	(global_label "ACCEL_INT"
+	(global_label "ACCEL_PD_INT"
 		(shape input)
-		(at 74.93 77.47 180)
+		(at 41.91 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2161,14 +2374,58 @@
 			)
 			(justify right)
 		)
-		(uuid "7961bdf2-9228-4447-8568-9fa104621db5")
+		(uuid "784aa398-56fb-4cfc-a7f9-f6f5cfd6fd3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.2686 77.47 0)
+			(at 25.741 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GYRO_INT"
+		(shape input)
+		(at 41.91 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ea03c6e-5813-4ef2-8416-1dfc051a71a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.0952 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GYRO_INT"
+		(shape input)
+		(at 210.82 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c25298a-0ba4-40f3-89c2-b35b36516b13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.6348 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2213,6 +2470,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACCEL_INT"
+		(shape input)
+		(at 53.34 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cae7886c-7b00-440e-b25d-18c09da63b36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.0014 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2802,6 +3081,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 45.72 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665a787e-2bc1-4733-be36-0756e70bad5a")
+		(property "Reference" "D34"
+			(at 44.4499 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 46.9899 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 45.72 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1eb14f8-79f5-46ba-895e-7599bd7eb66e")
+		)
+		(pin "2"
+			(uuid "a293990e-6e6d-437d-8508-9468fe33cbc3")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/07924181-0426-401c-b7c2-4f79a4ea3bc9"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Motion:LIS3DH")
 		(at 87.63 82.55 0)
 		(unit 1)
@@ -2995,6 +3353,84 @@
 			(project "vectrix-vehicleman-0"
 				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/07924181-0426-401c-b7c2-4f79a4ea3bc9"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 45.72 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a69e7a6-7fc2-4bb1-8971-5f481cac0e78")
+		(property "Reference" "D33"
+			(at 44.4499 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 46.9899 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C917030"
+			(at 45.72 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82f26427-bda9-4297-a5ac-0f6dd5d08fef")
+		)
+		(pin "2"
+			(uuid "102f0089-cc07-4c7d-8f51-8a5e96cba6d4")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/07924181-0426-401c-b7c2-4f79a4ea3bc9"
+					(reference "D33")
 					(unit 1)
 				)
 			)

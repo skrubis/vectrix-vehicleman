@@ -4405,12 +4405,6 @@
 		(uuid "7e1004e7-4013-44b9-bcb6-ba4a65e1400b")
 	)
 	(junction
-		(at 68.58 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "826d9097-aa3b-4ca8-bb42-5bb60f9a8d11")
-	)
-	(junction
 		(at 256.54 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4886,16 +4880,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 177.8) (xy 85.09 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f45b474-0c5e-4c54-b213-9f741f97ed4d")
-	)
-	(wire
-		(pts
 			(xy 160.02 170.18) (xy 154.94 170.18)
 		)
 		(stroke
@@ -5276,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 177.8) (xy 68.58 177.8)
+			(xy 60.96 177.8) (xy 85.09 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6752,94 +6736,6 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L4UG")
-		(at 68.58 175.26 270)
-		(mirror x)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b3a433a-d9ab-461c-913b-0daeb4625064")
-		(property "Reference" "D26"
-			(at 71.12 176.5301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PESD5V0L4UG"
-			(at 71.12 173.9901 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 73.66 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
-			(at 63.5 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
-			(at 68.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5116450"
-			(at 68.58 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
-		)
-		(pin "4"
-			(uuid "54fd3f98-45ac-48b1-8ea9-3b80236d877c")
-		)
-		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
-		)
-		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
-		)
-		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
-		)
-		(instances
-			(project "vectrix-vehicleman-0"
-				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
-					(reference "D26")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:PESD5V0L4UG")
 		(at 85.09 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7618,13 +7514,13 @@
 			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
 		)
 		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45139")
 		)
 		(pin "2"
 			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
 		)
 		(pin "3"
-			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff7")
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff8")
 		)
 		(pin "5"
 			(uuid "200924d1-8aa4-4536-9deb-015ec1f037c6")
@@ -11039,6 +10935,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:PESD5V0L4UG")
+		(at 116.84 153.67 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9571da47-9171-4018-9970-20e5f02aff28")
+		(property "Reference" "D26"
+			(at 119.38 154.9401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5V0L4UG"
+			(at 119.38 152.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 121.92 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353"
+			(at 116.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116450"
+			(at 116.84 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5440050-5a86-498c-adad-bbdf347a7499")
+		)
+		(pin "4"
+			(uuid "cc89a593-0c67-43e0-b0d7-848694b36518")
+		)
+		(pin "2"
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a8")
+		)
+		(pin "3"
+			(uuid "a7ed005e-b7c9-4a7f-927e-9e327e45cff9")
+		)
+		(pin "5"
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfd")
+		)
+		(instances
+			(project "vectrix-vehicleman-0"
+				(path "/05d12b30-c3b1-455d-b907-9e9d56cc8f30/99782543-f9fb-4dd7-a2c0-0df378ed7ddd"
+					(reference "D26")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 38.1 73.66 0)
 		(unit 1)
@@ -13063,19 +13047,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5440050-5a86-498c-adad-bbdf347a7498")
+			(uuid "e5440050-5a86-498c-adad-bbdf347a749a")
 		)
 		(pin "4"
-			(uuid "6d578131-cbf7-40e3-8e80-b0a843c45138")
+			(uuid "6d578131-cbf7-40e3-8e80-b0a843c4513a")
 		)
 		(pin "2"
-			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a7")
+			(uuid "21b4c80e-e679-4f87-8038-348d1f9085a9")
 		)
 		(pin "3"
 			(uuid "b8a538b0-d739-4567-9aa8-05be11909f7e")
 		)
 		(pin "5"
-			(uuid "209c313e-7ffb-4906-add6-1186255a5bfc")
+			(uuid "209c313e-7ffb-4906-add6-1186255a5bfe")
 		)
 		(instances
 			(project "vectrix-vehicleman-0"
